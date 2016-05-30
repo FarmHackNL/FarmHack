@@ -16,6 +16,10 @@ Lees meer over variabel poten op http://www.vandenborneaardappelen.com/nl/363/va
 
 ## Pootlogs
 
+Jacob is een ervaren percisielandbouwer. Het overgrote deel van zijn machines is uitgerust met hypernauwkeurige GPS systemen die een nauwkeurigheid van 1 - 2 cm hebben. Dit is pakweg 500x nauwkeuriger dan de GPS van smartphones. 
+
+Het seizoen begint met zaaien en poten. De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
+
 ## Gewassensing
 
 De Fritzmeier Isaria sensor meet de reflectie van het licht dat op een plant valt. Hieruit zijn o.a. de hoeveelheid biomassa en stikstof van een plant te bepalen. Elk meting is voorzien van een nauwkeurige nauwkeurige GPS coordinaat. De metingen worden gebruikt om taakkaarten te maken voor het variabel toedienen van mest en/of kunstmest. Het gewas krijgt op deze manier precies wat het nodig heeft en wordt verspilling tegengegaan. 
