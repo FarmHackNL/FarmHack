@@ -1,5 +1,7 @@
 # FarmHack
 
+[![Join the chat at https://gitter.im/FarmHackNL/FarmHack](https://badges.gitter.im/FarmHackNL/FarmHack.svg)](https://gitter.im/FarmHackNL/FarmHack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Boeren genereren steeds meer data. Slimme sensoren, drones en robots zorgen voor een explosie van gegevens. Ook de capaciteit voor het verwerken en analyseren van data neemt razendsnel toe. En in de toekomst wordt het data-aanbod alleen nog maar ruimer, meer real time, gedetailleerder en bedrijfs-specifieker.
 
 # Challengers
