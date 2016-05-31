@@ -4,6 +4,22 @@
 
 Boeren genereren steeds meer data. Slimme sensoren, drones en robots zorgen voor een explosie van gegevens. Ook de capaciteit voor het verwerken en analyseren van data neemt razendsnel toe. En in de toekomst wordt het data-aanbod alleen nog maar ruimer, meer real time, gedetailleerder en bedrijfs-specifieker.
 
+# Meedoen
+
+Schrijf je snel in voor een van de FarmHacks op http://www.farmhack.nl!
+
+# Data
+
+In deze repository vind je (demo) datasets van de FarmHack Challengers, zie `challengers/<challenger>/data`.
+
+In https://github.com/farmhacknl/data verzamelen we  **open** agri data die interessant/relevant is voor elke FarmHack. 
+
+Alle data wordt zo veel mogelijk als GeoJSON + lat/lng aangeboden. Wil je data in een andere format of cooördinatenstelsel? Laat het ons weten in de issue trackers of op Gitter.
+
+# Documentatie
+
+Op http://pdok-ngr.readthedocs.io vind je handleiding en tutorials over het gebruik van geodata.
+
 # Challengers
 
 **Jacob van den Borne - Reusel**
