@@ -8,7 +8,7 @@ Boeren genereren steeds meer data. Slimme sensoren, drones en robots zorgen voor
 
 Schrijf je snel in voor een van de FarmHacks op http://www.farmhack.nl!
 
-Kun je er niet bij zijn? Geen stress! Je kunt de FarmHacks volgen via [de blog](http://www.farmhack.nl/category/blog/), [Twitter](https://twitter.com/farmhacknl) en [Gitter](https://gitter.im/FarmHackNL/FarmHack).
+Kun je er niet bij zijn? Geen stress! Je kunt de FarmHacks volgen via [de blog](http://www.farmhack.nl/category/blog/), [Twitter](https://twitter.com/farmhacknl) en [Gitter](https://gitter.im/FarmHackNL/FarmHack). Oh ja, heb je deze repository al gefaved? ;)
 
 # Data
 
