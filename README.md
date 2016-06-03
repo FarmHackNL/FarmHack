@@ -14,7 +14,7 @@ Kun je er niet bij zijn? Geen stress! Je kunt de FarmHacks volgen via [de blog](
 
 In deze repository vind je (demo) datasets van de FarmHack Challengers, zie `challengers/<challenger>/data`.
 
-In https://github.com/farmhacknl/data verzamelen we  **open** agri data die interessant/relevant is voor de FarmHacks. 
+In https://github.com/farmhacknl/open-data verzamelen we  (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks. 
 
 Alle data wordt zo veel mogelijk als GeoJSON + lat/lng aangeboden. Wil je data in een andere format of cooördinatenstelsel? Laat het ons weten in de issue trackers of op Gitter.
 
