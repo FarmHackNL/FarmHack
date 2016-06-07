@@ -2,19 +2,17 @@
 
 [![Join the chat at https://gitter.im/FarmHackNL/FarmHack](https://badges.gitter.im/FarmHackNL/FarmHack.svg)](https://gitter.im/FarmHackNL/FarmHack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Boeren genereren steeds meer data. Slimme sensoren, drones en robots zorgen voor een explosie van gegevens. Ook de capaciteit voor het verwerken en analyseren van data neemt razendsnel toe. En in de toekomst wordt het data-aanbod alleen nog maar ruimer, meer real time, gedetailleerder en bedrijfs-specifieker.
+_FarmhackNL mobiliseert coders, creatieven en domeinexperts op vraagstukken van de boer._
 
-# Meedoen
+Tijdens 4 (!) hackathons in juni en juli komen we samen bij de boer(!) om te hacken aan agri data, visualisaties, analyses en apps. Schrijf je snel in op [farmhack.nl](http://www.farmhack.nl)!
 
-Schrijf je snel in voor een van de FarmHacks op http://www.farmhack.nl!
-
-Kun je er niet bij zijn? Geen stress! Je kunt de FarmHacks volgen via [de blog](http://www.farmhack.nl/category/blog/), [Twitter](https://twitter.com/farmhacknl) en [Gitter](https://gitter.im/FarmHackNL/FarmHack). Oh ja, heb je deze repository al gefaved? ;)
+ Volg de FarmHacks via de [blog](http://www.farmhack.nl/category/blog/) en [Twitter](https://twitter.com/farmhacknl), en discussieer mee in de [issue tracker](https://github.com/FarmHackNL/FarmHack/issues) en in onze [Gitter](https://gitter.im/FarmHackNL/FarmHack) chat kanaal.
 
 # Data
 
-In deze repository vind je (demo) datasets van de FarmHack Challengers, zie `challengers/<challenger>/data`.
-
-In https://github.com/farmhacknl/open-data verzamelen we  (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks. 
+- In deze repository vind je (demo) datasets van de FarmHack Challengers, zie de `challengers/<challenger>/data` mapjes.
+- In de FarmHack [Open Data](https://github.com/farmhacknl/open-data) repository verzamelen we (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks.
+- Op [data.farmhack.nl](https://farmhack.data.nl) vind je bulk downloads van (landelijke) open data en de data van de challengers.
 
 Alle data wordt zo veel mogelijk als GeoJSON + lat/lng aangeboden. Wil je data in een andere format of cooördinatenstelsel? Laat het ons weten in de issue trackers of op Gitter.
 
@@ -28,7 +26,7 @@ Op http://pdok-ngr.readthedocs.io vind je handleiding en tutorials over het gebr
 
 De eerste FarmHack vindt plaats bij Jacob van den Borne, de beroemdste data boer van Nederland. Drones vliegen over zijn land, sensoren meten iedere vierkante meter. Jacob is steeds bezig met de nieuwste technologie. Zijn data bewaart hij in zijn ‘cloudfarm’. We gaan kijken naar hergebruik van data voor automatische analyses, om in het veld real time analyses te kunnen doen.
 
-Data: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/jacob/data
+Data: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
 
 **Nanne Sterenborg - Groningen**
 
@@ -41,3 +39,11 @@ Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overi
 **Nienke Dirx-Kuijken - Noord-Brabant**
 
 Ninke Dirx-Kuijken is innovatiemanager bij VIC Sterksel, een multifunctioneel onderzoekscentrum voor innovatieve en duurzame varkenshouderij. Al een aantal jaar kijkt zij naar de kansen van digitalisering. Resultaten laten zien dat veel winst te behalen valt met data gedreven management. Vooral als straks de slag gemaakt wordt van meten op groepsniveau naar individueel dierniveau.
+
+# De FarmHack gedachte
+
+FarmHack is een katalysator voor oplossingen en innovaties in de agrarische en landbouwsector. We mobiliseren coders, creatieven en domeinexperts op vraagstukken van de boer. De ambitie is om uit te groeien tot een permanent vernieuwingskracht binnen de agri- en landbouwsector: een gemeenschap die uitdagingen op een open en transparante manier aanpakt. Het motto hierbij is: make things open: it makes things better.
+
+Om dit te realiseren willen alle analyses, visualisaties, apps, en de bijbehorende ontwikkelproces en data die tijdens de FarmHacks aan bod komen op een open en duurzame manier vastleggen. Het streven: een solide gemeenschappelijke basis realiseren waarop we rendabele apps en oplossingen kunnen bouwen. Een gezamenlijke verkenning van de agri/landbouw _problem space_ stelt ons beter in staat om waarde toevoegende apps en oplossingen te bouwen. Samen kunnen we tijdrovende bottlenecks effectiever wegnemen. Want, wat is waardevoller en fijner: een uur lang obscure data schoonmaken of je toffe app productieklaar en gepolijst maken?
+
+**We richten FarmHack daarom in als een open source project: we ontwikkelen en communiceren in het open.** Maak daarom veelvuldig gebruik van de FarmHack ecosysteem op GitHub.
