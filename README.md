@@ -8,11 +8,13 @@ Boeren genereren steeds meer data. Slimme sensoren, drones en robots zorgen voor
 
 Schrijf je snel in voor een van de FarmHacks op http://www.farmhack.nl!
 
+Kun je er niet bij zijn? Geen stress! Je kunt de FarmHacks volgen via [de blog](http://www.farmhack.nl/category/blog/), [Twitter](https://twitter.com/farmhacknl) en [Gitter](https://gitter.im/FarmHackNL/FarmHack). Oh ja, heb je deze repository al gefaved? ;)
+
 # Data
 
 In deze repository vind je (demo) datasets van de FarmHack Challengers, zie `challengers/<challenger>/data`.
 
-In https://github.com/farmhacknl/data verzamelen we  **open** agri data die interessant/relevant is voor elke FarmHack. 
+In https://github.com/farmhacknl/open-data verzamelen we  (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks. 
 
 Alle data wordt zo veel mogelijk als GeoJSON + lat/lng aangeboden. Wil je data in een andere format of cooördinatenstelsel? Laat het ons weten in de issue trackers of op Gitter.
 
