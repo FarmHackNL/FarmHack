@@ -1,3 +1,5 @@
+Onderstaande komt uit Frenk-Jan Barons BSc thesis `Bodemscans en opbrengstmeting in de aardappelteelt op zandgrond: het zoeken naar verbanden`.
+
 ##1. Percelen
 
 Jacob percelen zijn over een groot verspreid (sommige liggen in Belgie!). Ze komen in alle soorten, maten en vormen voor. Elk perceel heeft een uniek ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
