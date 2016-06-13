@@ -38,4 +38,16 @@ In het bestand vind je verder de kolommen
 
 Aan de hand van de metingen kan de machine meteen variabel kunstmest strooien. Als er MAP (Mapping) in de naam van de file staat is er alleen gemeten; als er Pot (Potato) in de naam van de file staat is er gespoten. 
 
+##7. Opbrengstmeting
+
+Beide aardappelrooiers (de Puma 3 en de Puma+) zijn uitgerust met het opbrengstmeting.
+
+De ruwe data in .csv files is als volgt opgebouwd: datum, tijd, positie, kwaliteit gps signaal,
+aantal satellieten. Daarna volgen een x en een y in meters.
+
+De volgende kolom is de snelheid van de rooier in km/h, daarna komt het gewicht van de aardappels op het bunkerbandje. Hier moet alleen nog wel het leeggewicht van het bandje afgetrokken worden, dat staat in de volgende kolom. Met de conversie factor wordt gecorrigeerd voor de tijd dat de aardappels onderweg zijn in de machine. Daarna volgen de snelheid van het bunkerbandje in meter per seconde en de werkbreedte van de machine. Dit is drie meter omdat er vier rijen van 75 centimeter gerooid worden.
+
+Nu komen de opbrengsten waar he om gaat, eerst de opbrengst in ton per hectare voor elke positie. Daarna de totale opbrengst in tonnen, dit is de som van alle voorgaande puntmetingen. Verder zijn er nog het aantal gerooide hectares, de opbrengst per punt en de gewerkte tijd in seconden. Daarna volgen het nummer en het gewicht van elke vracht.
+Als laatste zijn er gegevens uit de boordcomputer van de rooier opgenomen. Dit zijn het aantal motortoeren (rpm) , benodigd koppel, geleverd koppel, brandstofverbruik in liter per uur, totaal brandstofverbruik in liters. De tractrear is de olie druk van de wielaandrijving van de rooier. Als de grond verdicht is zal het rooien zwaarder gaan en is er meer olie druk nodig, deze parameter kan dus een indicator zijn voor de bodemverdichting.
+
 Lees meer over gewassensing op http://www.vandenborneaardappelen.com/nl/296/gewassensing
