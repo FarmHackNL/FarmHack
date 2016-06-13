@@ -1,28 +1,41 @@
-## Percelen
+##1. Percelen
 
-Aangezien hij veel pacht zijn deze over een groot gebied verspreid (sommige liggen in Belgie!) en komen ze in alle soorten, maten en vormen voor. Van elk perceel is bekend welke type en soort gewas er verbouwd wordt, en welk gewas er vorig jaar op te vinden was.
+Jacob percelen zijn over een groot verspreid (sommige liggen in Belgie!). Ze komen in alle soorten, maten en vormen voor. Elk perceel heeft een uniek ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
 
-## Bodemscan
+##2. Bodemscan
 
 Een bodemscan meet de elektrische geleidbaarheid en magnetische gevoeligheid van de bodem. Bodemscans geven inzicht in de samenstelling van de bodem en de locaties van droge en natte plekken. Aan de hand hiervan kan de vruchtbaarheid bepaald worden.
 
 Lees meer over de bodemscans op http://www.vandenborneaardappelen.com/nl/361/bodemscannen-bij-van-den-borne-aardappelen
 
-## Schaduwkaarten
+##3. Schaduwkaarten
 
-Ten slotte worden er van elk perceel schaduwkaarten gemaakt. Deze geven het schaduwverloop van een perceel aan de hand van een aantal categorieen: permanente schaduw, transitieschaduw, etc. Jacob gebruikt deze gegevens om o.a. de gewasdichtheid te bepalen: planten in de schaduw worden verder van elkaar geplant dan planten in de open lucht. 
+Van elk perceel worden er schaduwkaarten gemaakt. Deze geven het schaduwverloop van een perceel aan de hand van een aantal categorieen: permanente schaduw, transitieschaduw, etc. Jacob gebruikt deze gegevens om o.a. de gewasdichtheid te bepalen: planten in de schaduw worden verder van elkaar geplant dan planten in de open lucht. 
+
 
 Lees meer over variabel poten op http://www.vandenborneaardappelen.com/nl/363/variabel-poen-in-schaduwzones
 
-## Pootlogs
+##4. Pootlogs
 
-Jacob is een ervaren percisielandbouwer. Het overgrote deel van zijn machines is uitgerust met hypernauwkeurige GPS systemen die een nauwkeurigheid van 1 - 2 cm hebben. Dit is pakweg 500x nauwkeuriger dan de GPS van smartphones. 
+De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
 
-Het seizoen begint met zaaien en poten. De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
+##5. Gewassensing
 
-## Gewassensing
+De Fritzmeier Isaria sensor meet de reflectie van het licht dat op een plant valt. Hieruit zijn o.a. de hoeveelheid biomassa en stikstof van een plant te bepalen. Elk meting is voorzien van een nauwkeurige GPS coordinaat. De metingen worden gebruikt om taakkaarten te maken voor het variabel toedienen van mest en/of kunstmest. Het gewas krijgt op deze manier precies wat het nodig heeft en wordt verspilling tegengegaan.
 
-De Fritzmeier Isaria sensor meet de reflectie van het licht dat op een plant valt. Hieruit zijn o.a. de hoeveelheid biomassa en stikstof van een plant te bepalen. Elk meting is voorzien van een nauwkeurige nauwkeurige GPS coordinaat. De metingen worden gebruikt om taakkaarten te maken voor het variabel toedienen van mest en/of kunstmest. Het gewas krijgt op deze manier precies wat het nodig heeft en wordt verspilling tegengegaan. 
+De sensor meet twee waardes:
 
+- IRMI : is een waarde voor de Red-Edge Position (REP). Deze index geeft aan hoeveel stikstof er in de plant aanwezig
+is. Aan de hand van deze data kan bepaald worden hoeveel stikstof er nog bij gestrooid moet
+worden. Hiervoor worden er taakkaarten van de data gemaakt of wordt er meteen na de
+meting variabel vaste of vloeibare kunstmest toegediend.
+- IBI : een biomassa index. Deze index geeft weer hoe groen het oppervlakte is, de waarde kan variëren tussen 0 en 1. Als de grond kaal is geeft de sensor 0 en 1 staat voor een sterk en goed groeiend gewas dat heel de grond bedekt heeft.
+
+In het bestand vind je verder de kolommen 
+
+- sprayer : geeft % aan van de ingestelde spuitvloeistof (meestal 100%)
+- section staat voor welke sectie deze procenten gelden.
+
+Aan de hand van de metingen kan de machine meteen variabel kunstmest strooien. Als er MAP (Mapping) in de naam van de file staat is er alleen gemeten; als er Pot (Potato) in de naam van de file staat is er gespoten. 
 
 Lees meer over gewassensing op http://www.vandenborneaardappelen.com/nl/296/gewassensing
