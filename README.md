@@ -14,11 +14,19 @@ Tijdens 4 (!) hackathons in juni en juli komen we samen bij de boer(!) om te hac
 - In de FarmHack [Open Data](https://github.com/farmhacknl/open-data) repository verzamelen we (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks.
 - Op [data.farmhack.nl](https://farmhack.data.nl) vind je bulk downloads van (landelijke) open data en de data van de challengers.
 
-Alle data wordt zo veel mogelijk als GeoJSON + lat/lng aangeboden. Wil je data in een andere format of cooördinatenstelsel? Laat het ons weten in de issue trackers of op Gitter.
+# Documentatie en tools
 
-# Documentatie
+Op http://pdok-ngr.readthedocs.io vind je handleidingen en tutorials over het gebruik van geodata.
 
-Op http://pdok-ngr.readthedocs.io vind je handleiding en tutorials over het gebruik van geodata.
+Het gros van de FarmHack  datasets heeft een ruimtelijk component. Gebruik een van onderstaande (web) apps om geodata te visualiseren, analyseren en transformeren naar andere bestandsformats.
+
+- [CartoDB](https://cartodb.com) - Geodata in de browser
+- [QGIS](http://www.qgis.org/en/site/) - Geodata op de desktop
+- [PostGIS](http://postgis.net) - Geodata plug-in voor PostgresSQL
+- [Turf.js](http://turfjs.org) - Geodata in JavaScript (browser én desktop)
+- [GDAL](http://www.gdal.org) - Geodata in de terminal
+
+**Vooral QGIS is een must have: hiermee kun je o.a. geodata slicen en naar andere bestandsformats tranformeren bijv. van Shapefile naar GeoJSON.**
 
 # Challengers
 
