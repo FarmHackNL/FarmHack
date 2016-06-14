@@ -6,11 +6,11 @@ Onderstaande komt uit Frenk-Jan Barons BSc thesis `Bodemscans en opbrengstmeting
 
 ##1. Percelen
 
-Jacob percelen zijn over een groot verspreid (sommige liggen in Belgie!). Ze komen in alle soorten, maten en vormen voor. Elk perceel heeft een unieke ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
+Jacobs percelen zijn over een groot gebied verspreid (sommige liggen in Belgie!). Ze komen in alle soorten, maten en vormen voor. Elk perceel heeft een unieke ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
 
 ##2. Bodemscan
 
-Een bodemscan meet de elektrische geleidbaarheid en magnetische gevoeligheid van de bodem. Bodemscans geven inzicht in de samenstelling van de bodem en de locaties van droge en natte plekken. Aan de hand hiervan kan de vruchtbaarheid bepaald worden. De bodemscan bestanden hebben een kolom: `EC`. Dit staat voor _electrical conductivity_ en is een maat voor de vruchtbaarheid van het perceel.
+Een bodemscan meet de elektrische geleidbaarheid en magnetische gevoeligheid van de bodem. Bodemscans geven inzicht in de samenstelling van de bodem en de locaties van droge en natte plekken. Aan de hand hiervan kan de vruchtbaarheid bepaald worden. De bodemscan bestanden hebben één kolom: `EC`. Dit staat voor _electrical conductivity_ en is een maat voor de vruchtbaarheid van het perceel.
 
 Lees meer over de bodemscans op http://www.vandenborneaardappelen.com/nl/361/bodemscannen-bij-van-den-borne-aardappelen
 
@@ -23,6 +23,22 @@ Lees meer over variabel poten op http://www.vandenborneaardappelen.com/nl/363/va
 ##4. Pootlogs
 
 De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
+
+Het poten gebeurt variabel, de pootafstand is dus niet overal gelijk. Er zijn drie manieren waarop variabel gepoot wordt:
+
+1. In de spuitsporen, de planten in de spuitsporen krijgen meer licht omdat er minder concurrentie is dus wordt er dichter op elkaar gepoot.
+2. In de schaduwzones, de planten in de schaduw krijgen minder licht en zullen daarom achterblijven in de groei, om toch een uniforme maatsortering te krijgen worden de planten hier verder uit elkaar gepoot.
+3. Op basis van bodemgeleidbaarheid, op plaatsen met een hogere geleidbaarheid wordt dichter op elkaar geplant omdat de bodem daar een hogere opbrengstpotentie heeft. Er is namelijk meer vocht beschikbaar.
+
+Ook kan er tijdens het poten variabel vloeibare kunstmest toegediend worden en/of granulaat gestrooid worden. Deze gegevens worden allemaal opgeslagen in de .csv files. Hierin staan eerst weer de algemene gegevens en daarna
+- de course: het pad dat de machine volgt, de hoek ten opzichte van het noorden.
+- fix is de kwaliteit van het Gps signaal.
+- row is het nummer van de rij die gepoot wordt, er worden namelijk vier rijen gepoot. In de spuitsporen worden rij één en vier uitgezet. Elke drie meter wordt er een meting gedaan,
+- onder # staan het aantal knollen dat in die drie meter geplant is. Hiermee wordt de huidige plantafstand berekend en kan deze vergeleken worden met de ingestelde waarde.
+
+Hierna volgt hoeveel granulaat en vloeibare kunstmest ingesteld is en hoeveel daadwerkelijk gegeven wordt. Verder staan er nog de naam van de bestuurder, het ras, de maat van het pootgoed en welke soort vloeibare kunstmest is toegepast.
+
+Lees meer over het variabel poten op http://www.vandenborneaardappelen.com/nl/292/variabel-poten
 
 ##6. Gewassensing
 
