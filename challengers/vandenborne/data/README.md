@@ -21,7 +21,7 @@ Lees meer over variabel poten op http://www.vandenborneaardappelen.com/nl/363/va
 
 De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
 
-##5. Gewassensing
+##6. Gewassensing
 
 De Fritzmeier Isaria sensor meet de reflectie van het licht dat op een plant valt. Hieruit zijn o.a. de hoeveelheid biomassa en stikstof van een plant te bepalen. Elk meting is voorzien van een nauwkeurige GPS coordinaat. De metingen worden gebruikt om taakkaarten te maken voor het variabel toedienen van mest en/of kunstmest. Het gewas krijgt op deze manier precies wat het nodig heeft en wordt verspilling tegengegaan.
 
