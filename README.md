@@ -34,7 +34,8 @@ Het gros van de FarmHack  datasets heeft een ruimtelijk component. Gebruik een v
 
 De eerste FarmHack vindt plaats bij Jacob van den Borne, de beroemdste data boer van Nederland. Drones vliegen over zijn land, sensoren meten iedere vierkante meter. Jacob is steeds bezig met de nieuwste technologie. Zijn data bewaart hij in zijn ‘cloudfarm’. We gaan kijken naar hergebruik van data voor automatische analyses, om in het veld real time analyses te kunnen doen.
 
-Data: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
+Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
+Alle data: https://data.farmhack.nl/challengers/vandenborne/
 
 **Nanne Sterenborg - Groningen**
 
