@@ -49,7 +49,7 @@ Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overi
 
 Ninke Dirx-Kuijken is innovatiemanager bij VIC Sterksel, een multifunctioneel onderzoekscentrum voor innovatieve en duurzame varkenshouderij. Al een aantal jaar kijkt zij naar de kansen van digitalisering. Resultaten laten zien dat veel winst te behalen valt met data gedreven management. Vooral als straks de slag gemaakt wordt van meten op groepsniveau naar individueel dierniveau.
 
-# De FarmHack gedachte
+# De FarmHack visie
 
 FarmHack is een katalysator voor oplossingen en innovaties in de agrarische en landbouwsector. We mobiliseren coders, creatieven en domeinexperts op vraagstukken van de boer. De ambitie is om uit te groeien tot een permanent vernieuwingskracht binnen de agri- en landbouwsector: een gemeenschap die uitdagingen op een open en transparante manier aanpakt. Het motto hierbij is: make things open: it makes things better.
 
