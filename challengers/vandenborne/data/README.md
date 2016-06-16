@@ -74,3 +74,16 @@ Nu komen de opbrengsten waar het om gaat,
 In sommige bestanden zijn ook gegevens uit de boordcomputer van de rooier opgenomen. Dit zijn het aantal motortoeren (rpm) , benodigd koppel, geleverd koppel, brandstofverbruik in liter per uur, totaal brandstofverbruik in liters. De tractrear is de olie druk van de wielaandrijving van de rooier. Als de grond verdicht is zal het rooien zwaarder gaan en is er meer olie druk nodig, deze parameter kan dus een indicator zijn voor de bodemverdichting.
 
 Lees meer over de opbrengstmeting op http://www.vandenborneaardappelen.com/nl/300/opbrengstmeting
+
+## Bodemscan by Eurofins
+
+Bodemscout shows a farmer where in his plots are spots where crops (almost) always grow better (blue) and where they (almost) always grow worse (red) then the average of the cropfield.
+
+The dataset has 7 possible values (1-7) and is symbolised like this
+
+- Value 1 means this rasterpoint has been always much worse then average for the field over 9 past years.
+- Value 7 means this rasterpoint has been always much better then average for the field over 9 past years.
+- Value 4 means this rasterpoint has always scored (more or less) average for the field over 9 past years.
+
+All this is based on a called WDVI (Weighted Difference Vegetation Index) per year over the last 9 years. WDVI represents how well a crop is growing.
+
