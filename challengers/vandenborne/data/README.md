@@ -77,9 +77,11 @@ Lees meer over de opbrengstmeting op http://www.vandenborneaardappelen.com/nl/30
 
 ## Bodemscan by Eurofins
 
-Bodemscout shows a farmer where in his plots are spots where crops (almost) always grow better (blue) and where they (almost) always grow worse (red) then the average of the cropfield.
+Bodemscout shows a farmer where in his plots are spots where crops (almost) always grow better (blue) and where they (almost) always grow worse (red) then the average of the cropfield. 
 
 The dataset has 7 possible values (1-7) and is symbolised like this
+
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/bodemscan_eurofins_legend.gif)
 
 - Value 1 means this rasterpoint has been always much worse then average for the field over 9 past years.
 - Value 7 means this rasterpoint has been always much better then average for the field over 9 past years.
@@ -87,3 +89,6 @@ The dataset has 7 possible values (1-7) and is symbolised like this
 
 All this is based on a called WDVI (Weighted Difference Vegetation Index) per year over the last 9 years. WDVI represents how well a crop is growing.
 
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/bodemscna_eurofins_example.gif)
+
+Bodemscout is made by [eurofins agro](http://blgg.agroxpertus.nl).
