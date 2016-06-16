@@ -34,7 +34,8 @@ Het gros van de FarmHack  datasets heeft een ruimtelijk component. Gebruik een v
 
 De eerste FarmHack vindt plaats bij Jacob van den Borne, de beroemdste data boer van Nederland. Drones vliegen over zijn land, sensoren meten iedere vierkante meter. Jacob is steeds bezig met de nieuwste technologie. Zijn data bewaart hij in zijn ‘cloudfarm’. We gaan kijken naar hergebruik van data voor automatische analyses, om in het veld real time analyses te kunnen doen.
 
-Data: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
+Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
+Alle data: https://data.farmhack.nl/challengers/vandenborne/
 
 **Nanne Sterenborg - Groningen**
 
@@ -48,7 +49,7 @@ Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overi
 
 Ninke Dirx-Kuijken is innovatiemanager bij VIC Sterksel, een multifunctioneel onderzoekscentrum voor innovatieve en duurzame varkenshouderij. Al een aantal jaar kijkt zij naar de kansen van digitalisering. Resultaten laten zien dat veel winst te behalen valt met data gedreven management. Vooral als straks de slag gemaakt wordt van meten op groepsniveau naar individueel dierniveau.
 
-# De FarmHack gedachte
+# De FarmHack visie
 
 FarmHack is een katalysator voor oplossingen en innovaties in de agrarische en landbouwsector. We mobiliseren coders, creatieven en domeinexperts op vraagstukken van de boer. De ambitie is om uit te groeien tot een permanent vernieuwingskracht binnen de agri- en landbouwsector: een gemeenschap die uitdagingen op een open en transparante manier aanpakt. Het motto hierbij is: make things open: it makes things better.
 
