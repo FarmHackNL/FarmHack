@@ -87,3 +87,10 @@ The dataset has 7 possible values (1-7) and is symbolised like this
 
 All this is based on a called WDVI (Weighted Difference Vegetation Index) per year over the last 9 years. WDVI represents how well a crop is growing.
 
+## Puddles by Jan Clement
+`puddles.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
+
+![]()
+
+This dataset is contributed by [Jan Clement](https://twitter.com/geo_jan).
+
