@@ -92,3 +92,10 @@ All this is based on a called WDVI (Weighted Difference Vegetation Index) per ye
 ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/bodemscna_eurofins_example.gif)
 
 Bodemscout is made by [eurofins agro](http://blgg.agroxpertus.nl).
+
+## Puddles by Jan Clement
+ `puddles.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
+
+ ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/watershed.png)
+
+ This dataset is contributed by [Jan Clement](https://twitter.com/geo_jan).
