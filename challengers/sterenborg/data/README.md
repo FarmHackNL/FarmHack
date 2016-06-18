@@ -1,4 +1,4 @@
-De bestanden in deze directory geven een overzicht van de verschillende types data. Op [https://data.farmhack.nl/challengers/vandenborne](https://data.farmhack.nl/challengers/sterenborg) vind je alle data.
+De bestanden in deze directory geven een overzicht van de verschillende types data. Op [https://data.farmhack.nl/challengers/sterenborg](https://data.farmhack.nl/challengers/sterenborg) vind je alle data.
 
 # Documentatie
 
