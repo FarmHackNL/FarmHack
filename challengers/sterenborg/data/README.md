@@ -4,4 +4,4 @@ De bestanden in deze directory geven een overzicht van de verschillende types da
 
 ## 1. Percelen
 
-In `percelen.geojson` vind je alle percelen Nannen en Gert. Elk perceel heeft een unieke ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
+In `percelen.geojson` vind je alle percelen Nanne en Gert. Elk perceel heeft een unieke ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
