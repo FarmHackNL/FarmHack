@@ -20,10 +20,10 @@ In `percelen.geojson` vind je alle percelen Nanne en Gert. Elk perceel heeft een
 
 In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data.
 
-![]()
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ndvi.png)
 
 `ebee-ndvi_demo.geojson` is een NDVI vector kaart (punten) op basis van de dronebeelden.
 
-![]()
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ebee-ndvi.png)
 
 De rasterbestnanden gebruiken het Nederlandse coördinatenstelsel (RD/EPSG:28992). De `geojson` bestanden gebruiken lat/lon (WGS84/EPSG:4326).
