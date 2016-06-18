@@ -8,9 +8,19 @@ In `percelen.geojson` vind je alle percelen Nanne en Gert. Elk perceel heeft een
 
 ## Satellietbeelden
 
-`sentinel2-2016-04-01_demo.tif` is een Sentinel-2 voorbeeldbestand afgesneden op de percelen.
+`sentinel2-2016-04-01_demo.tif` is een Sentinel-2 voorbeeldbestand afgesneden op de percelen. De Sentinel bands zijn als volgt ingedeeld:
 
- `spot7-2016-04-01_demo.tif` is een Spot-7 voorbeeldbestand afgesneden op de percelen.
+- red: band #4
+- green: band #3
+- blue: band #2
+- near-infrared: band #8
+
+ `spot7-2016-04-01_demo.tif` is een Spot-7 voorbeeldbestand afgesneden op de percelen. De Spot bands zijn als volgt ingedeeld
+
+ - red: band #3
+ - green: band #2
+ - blue: band #1
+ - near-infrared: band #4
 
 ## Dronebeelden
 
