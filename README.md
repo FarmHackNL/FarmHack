@@ -39,7 +39,7 @@ Alle data: https://data.farmhack.nl/challengers/vandenborne/
 
 **Nanne Sterenborg - Groningen**
 
-Nanne Sterenborg heeft een gangbaar akkerbouw bedrijf in Groningen van 320 hectare. Zijn bouwplan bestaat onder meer uit fabrieksaardappelen, suikerbuiten, chichorij en zaaiuien. Daarnaast heeft hij ook vleeskuikens, zit hij samen met een melkveehouder in biogas en beheert hij 80 hectare natuur. Hij is ruim 8 jaar geleden begonnen met GPS op alle trekkers. Inmiddels hebben ze ook een opbrengstmeter op de combine en werken ze met taakkaarten voor het toedienen van gewasbescherming en kunstmest.
+Nanne Sterenborg heeft een gangbaar akkerbouw bedrijf in Groningen van 320 hectare. Zijn bouwplan bestaat onder meer uit fabrieksaardappelen, suikerbuiten, chichorij en granen. Daarnaast heeft hij ook vleeskuikens, zit hij samen met een melkveehouder in biogas en beheert hij 80 hectare natuur. Hij is ruim 8 jaar geleden begonnen met GPS op alle trekkers. Inmiddels hebben ze ook een opbrengstmeter op de combine en werken ze met taakkaarten voor het toedienen van gewasbescherming en kunstmest.
 
 Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/sterenborg/data
 Alle data: https://data.farmhack.nl/challengers/sterenborg/
