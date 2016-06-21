@@ -38,7 +38,7 @@ In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data
 
 ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ebee-ndvi.png)
 
-## Puddles by Jan Clement
+## Puddles by Alterra
  `risicolocaties_oppervlakkige_afspoeling.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
 
  ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/watershed.png)
@@ -83,4 +83,4 @@ All this is based on a called WDVI (Weighted Difference Vegetation Index) per ye
 
 ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/bodemscan_eurofins_example.gif)
 
-Bodemscout is made by [eurofins agro](http://blgg.agroxpertus.nl).
+The Bodemscout data is donated by @TonvanGastel ([eurofins agro](http://blgg.agroxpertus.nl)).
