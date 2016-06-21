@@ -42,11 +42,14 @@ In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data
 
 Op https://data.farmhack.nl/challengers/sterenborg vind je ook een false color composite afbeelding. Deze is afkomstig van de ruwe drone beelden. Deze is gemaakt omdat de eBee geen blauw waarneemt. De kleuren en banden zijn als volgt opgebouwd:
 
- - rood =
+|kleur|gemeten kleur|
+|---|---|
+|rood| NIR|
+|groen|rood|
+|blauw|groen|
 
-rood is NIR, groen is rood, blauw is
-groen
-omdat de sensor geen blauw meet
+Er wordt geen blauw licht gemeten met de multispectrale (blauw is vaak een overbodige kleur om gewassen mee te meten).
+
 https://drive.google.com/file/d/0Bxm-fFs3VJb0ZEFVSzc3bkttc2M/view?usp=sharing
 geotif, nog wel in utm 32N
 band1 = groen
