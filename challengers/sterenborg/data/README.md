@@ -57,10 +57,12 @@ Op https://data.farmhack.nl/challengers/sterenborg vind je ook een false color c
 
 De afbeelding bevat vijf banden, te weten
 
-band 1 = groen
-band 2 = rood
-band 3 = red-edge
-band 4 = near-infrared
-band 5 = NDVI (nir-red)/(nir+red)
+|band|gemeten kleur|
+|---|---|
+|1| groen|
+|2| rood|
+|3| red-edge|
+|4| near-infrared|
+|5| NDVI (nir-red)/(nir+red)|
 
 Coördinatenstelsel: WGS 84 / UTM zone 31N (EPSG:32631).
