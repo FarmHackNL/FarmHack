@@ -38,20 +38,9 @@ In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data
 
 ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ebee-ndvi.png)
 
-## False color composite
+## Puddles by Jan Clement
+ `risicolocaties_oppervlakkige_afspoeling.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
 
-Op https://data.farmhack.nl/challengers/sterenborg vind je ook een false color composite afbeelding. Deze is afkomstig van de ruwe drone beelden. Deze is gemaakt omdat de eBee geen blauw waarneemt. De kleuren en banden zijn als volgt opgebouwd:
+ ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/watershed.png)
 
- - rood =
-
-rood is NIR, groen is rood, blauw is
-groen
-omdat de sensor geen blauw meet
-https://drive.google.com/file/d/0Bxm-fFs3VJb0ZEFVSzc3bkttc2M/view?usp=sharing
-geotif, nog wel in utm 32N
-band1 = groen
-band2 = rood
-band3 = red-edge
-band4 = near-infrared
-band5 = NDVI (nir-red)/(nir+red)
-dus daar zit al NDVI in
+ This dataset is contributed by [Jan Clement](https://twitter.com/geo_jan) and Harry Massop of [Alterra](https://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra.htm). See the dataset's [documentation](http://www.wageningenur.nl/nl/Publicatie-details.htm?publicationId=publication-way-343536353534) (Dutch) for more information.
