@@ -6,7 +6,19 @@ _FarmhackNL mobiliseert coders, creatieven en domeinexperts op vraagstukken van 
 
 Tijdens 4 (!) hackathons in juni en juli komen we samen bij de boer(!) om te hacken aan agri data, visualisaties, analyses en apps. Schrijf je snel in op [farmhack.nl](http://www.farmhack.nl)!
 
- Volg de FarmHacks via de [blog](http://www.farmhack.nl/category/blog/) en [Twitter](https://twitter.com/farmhacknl), en discussieer mee in de [issue tracker](https://github.com/FarmHackNL/FarmHack/issues) en in onze [Gitter](https://gitter.im/FarmHackNL/FarmHack) chat kanaal.
+
+# Meedoen
+
+Op [farmhack.nl](http://www.farmhack.nl) kun je je inschrijven voor één van de FarmHacks.
+
+ Via de volgende kanalen kun je meediscussiëren en/of up-to-date blijven.
+
+- [Blog](http://www.farmhack.nl/category/blog/) - laatste nieuws, interviews en blogs over data en tools.
+- [Twitter](https://twitter.com/farmhacknl) - laatste nieuws, aankondigingen en live verslag van elke FarmHack.
+- [Gitter](https://gitter.im/FarmHackNL/FarmHack) - openbaar chat kanaal.
+- [Issue tracker](https://github.com/FarmHackNL/FarmHack/issues) - vraag/opmerkinge/suggestie voor FarmHack? Laat het ons weten!
+
+Op https://github.com/FarmHackNL vind je een overzicht van de FarmHack projecten.
 
 # Data
 
@@ -16,7 +28,7 @@ Tijdens 4 (!) hackathons in juni en juli komen we samen bij de boer(!) om te hac
 
 # Documentatie en tools
 
-Op http://pdok-ngr.readthedocs.io vind je handleidingen en tutorials over het gebruik van geodata.
+In de [PDOK/NGR documentatie](http://pdok-ngr.readthedocs.io) vind je handleidingen en tutorials over het gebruik van geodata.
 
 Het gros van de FarmHack  datasets heeft een ruimtelijk component. Gebruik een van onderstaande (web) apps om geodata te visualiseren, analyseren en transformeren naar andere bestandsformats.
 
