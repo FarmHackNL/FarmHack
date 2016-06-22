@@ -17,7 +17,7 @@ In `percelen.geojson` vind je alle percelen Nanne en Gert. Elk perceel heeft een
 - blue: band #2
 - near-infrared: band #8
 
- `spot7-2016-04-01_demo.tif` is een Spot-7 voorbeeldbestand afgesneden op de percelen. De Spot bands zijn als volgt ingedeeld
+`spot7-2016-04-01_demo.tif` is een Spot-7 voorbeeldbestand afgesneden op de percelen. De Spot bands zijn als volgt ingedeeld
 
  - red: band #3
  - green: band #2
@@ -47,7 +47,7 @@ In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data
 
 ## False color composite
 
-Op https://data.farmhack.nl/challengers/sterenborg vind je ook een false color composite afbeelding. Deze is afkomstig van de ruwe drone beelden. Deze is gemaakt omdat de eBee geen blauw waarneemt (blauw is vaak een overbodige kleur om gewassen mee te meten). De kleuren en banden zijn als volgt opgebouwd:
+Op https://data.farmhack.nl/challengers/sterenborg/dronebeelden/ vind je ook een false color composite afbeelding. Deze is afkomstig van de ruwe drone beelden. Deze is gemaakt omdat de eBee geen blauw waarneemt (blauw is vaak een overbodige kleur om gewassen mee te meten). De kleuren en banden zijn als volgt opgebouwd:
 
 |kleur|gemeten kleur|
 |---|---|
