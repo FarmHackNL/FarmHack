@@ -68,7 +68,7 @@ Ninke Dirx-Kuijken is innovatiemanager bij VIC Sterksel, een multifunctioneel on
 
 |Donor(en)|Organisatie/Bedrijf|Dataset|Challenger(s)|
 |---|---|---|---|
-|Ton van Gastel|[Eurofins Agro](http://www.blgg.com)|Bodemscout| Van den Borne, Sterenborg|
+|Ton van Gastel|[Eurofins Agro](http://www.blgg.com)|[Bodemscout](http://www.mijnpercelen.nl?returnUrl=%2FKaartbedrijf)| Van den Borne, Sterenborg|
 |[Jan Clement](https://twitter.com/geo_jan), Harry Massop|[Alterra](https://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra.htm)|[Potentiële risicolocaties voor oppervlakkige afspoeling](http://www.wageningenur.nl/nl/Publicatie-details.htm?publicationId=publication-way-343536353534)| Van den Borne, Sterenborg|
 
 # De FarmHack visie
