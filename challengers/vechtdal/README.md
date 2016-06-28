@@ -6,4 +6,14 @@ Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een b
 
 # Data
 
-_hier komen links naar de APIs_
+## Vechtdalproducten
+
+De gegevens van Vechtdalproducten worden beheerd in Silk.co, zie http://vechtdal.silk.co
+
+De Silk.co heeft een API waarmee je deze gegevens kan bevragen, zie https://developer.silk.co.
+
+TODO: twee/drie korte voorbeeld calls opnemen
+
+## De Zwolse Stadslanderijen
+
+TODO: korte API documentatie
