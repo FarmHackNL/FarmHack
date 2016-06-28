@@ -52,15 +52,15 @@ Alle data: https://data.farmhack.nl/challengers/vandenborne/
 
 **Nanne Sterenborg - Groningen**
 
-Nanne Sterenborg heeft een gangbaar akkerbouw bedrijf in Groningen van 320 hectare. Zijn bouwplan bestaat onder meer uit fabrieksaardappelen, suikerbuiten, chichorij en granen. Daarnaast heeft hij ook vleeskuikens, zit hij samen met een melkveehouder in biogas en beheert hij 80 hectare natuur. Hij is ruim 8 jaar geleden begonnen met GPS op alle trekkers. Inmiddels hebben ze ook een opbrengstmeter op de combine en werken ze met taakkaarten voor het toedienen van gewasbescherming en kunstmest.
-
 Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/sterenborg/data
 
 Alle data: https://data.farmhack.nl/challengers/sterenborg/
 
 **Ilona Lagas en Jos van Leussen - Zwolle**
 
-Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overijssels Vechtdal waarin producenten (boeren), bewerkers (bakkers en slagers) en gebruikers in de horeca (restaurants en hotels) zijn verenigd. Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een boerenbeheer maatschappij die zich richt op het beheer en gebruik van een deel van de ‘reservegronden woningbouw’: honderden hectaren grond in en rond de stad die ooit bedoeld waren voor woningbouw.
+Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overijssels Vechtdal waarin producenten (boeren), bewerkers (bakkers en slagers) en gebruikers in de horeca (restaurants en hotels) zijn verenigd.
+
+Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een boerenbeheer maatschappij die zich richt op het beheer en gebruik van een deel van de ‘reservegronden woningbouw’: honderden hectaren grond in en rond de stad die ooit bedoeld waren voor woningbouw.
 
 **Nienke Dirx-Kuijken - Noord-Brabant**
 
