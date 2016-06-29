@@ -12,19 +12,19 @@ TODO
 
 Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een boerenbeheer maatschappij die zich richt op het beheer en gebruik van een deel van de ‘reservegronden woningbouw’: honderden hectaren grond in en rond de stad die ooit bedoeld waren voor woningbouw.
 
-### Data
+### Data: Crop-R API
 
-De Zwolse Stadslanderijen manage their data in [Crop-R](https://www.crop-r.com). Crop-R has an extensive API that gives access to a.o. the locations and dimensions of all the plots, the activities performed on each plot, the current and planned crops, etc.
+De Zwolse Stadslanderijen manage their data in [Crop-R](https://www.crop-r.com). Crop-R has an extensive API that gives access to a.o. the locations and dimensions of all plots, the activities performed on each plot, current and planned crops, etc.
 
-The API lives at [https://www.crop-r.com/api/v1](https://www.crop-r.com/api/v1). Please note: it is still very much in beta.
+The API lives at [https://www.crop-r.com/api/v1/](https://www.crop-r.com/api/v1). Please note: it is still very much in beta.
 
 **Authentication**
 
-You need to authenticate with the API. Go to https://www.crop-r.com#show_login and login with the FarmHack account. Your auth token is stored in the sessionid cookie. Attach its value to your API call as follows
+You need an auth token to interact wit the API. First, use the FarmHack account to log into Crop-R at https://www.crop-r.com#show_login. Second, locate the Crop-R session cookie through the `Preferences/Settings` of your favourite browser. E.g. in Chrome you can find it under `Settings - Show advanced settings - Content settings - All cookies and site data`. The auth token is stored in the `sessionid` cookie's `content` field. Attach its value to your API call as follows
 
     https://www.crop-r.com/api/v1?format=json&sessionid=XXXXX
 
-You can now request the plots, the actions performed on them and the planned events.
+You can now request plots, the performed actions, planned events and others.
 
 **Retrieve all plots**
 
@@ -45,18 +45,15 @@ Response:
   },
   "objects": [
     {
-      "crop": 177,
-      "farm": 8112,
-      "field_attributes": {},
-      "geometry": "POLYGON ((4.2928494159090738 52.0829653189524748, ... 4.2928494159090738 52.0829653189524748))",
       "id": 165355,
+      "crop": 177,
+      "geometry": "POLYGON ((4.2928494159090738 52.0829653189524748, ... 4.2928494159090738 52.0829653189524748))",
       "last_modified": "2016-06-29T16:40:57.525850",
       "name": "De Zwolselanderijen",
-      "notes": "",
-      "plan": 11465,
       "previous_crop": null,
       "registered_area": 1.1719,
       "soil_researches": [],
+      "notes": ""
       ...
     },
     {
@@ -74,7 +71,7 @@ Note: the geometry is stored as [Well-Known Text](https://en.wikipedia.org/wiki/
 
 **Retrieve the performed activities on a plot**
 
-Plot activities such as sowing, spraying, inspecting, etc. are maintained in `record`s. Each record contains one or more `activities`.
+Plot activities such as sowing, spraying, inspecting, etc. are maintained in Crop-R `record`s. Each record contains one or more `activities`.
 
 Send a `GET` request to `/api/v1/record/` to retrieve all `record`s:
 
@@ -103,6 +100,11 @@ Response:
               "value": 5
             }
           ]
+        },
+        {
+          "theme": 11,
+          "type": 1004,
+          ...
         }
       ],
       "cropfield": 165355,
@@ -113,12 +115,15 @@ Response:
       "observations": [],
       "processing_state": "performed",
       ...
+    },
+    {
+      ...
     }
   ]
 }
 ```
 
-A plot's `id` is stored in the `cropfield` name. You can use to retrieve a specific plot from `/cropfield/` as
+A plot's `id` is stored in the `cropfield` name. You can use it to retrieve a specific plot from `/cropfield/` as
 
     https://www.crop-r.nl/api/v1/cropfield/165355?format=json&sessionid=XXXXX
 
