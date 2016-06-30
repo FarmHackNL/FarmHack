@@ -24,17 +24,25 @@ Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een b
 
 ### Data: Crop-R API
 
-De Zwolse Stadslanderijen manage their data in [Crop-R](https://www.crop-r.com). Crop-R has an extensive API that gives access to a.o. the locations and dimensions of all plots, the activities performed on each plot, current and planned crops, etc.
+De Zwolse Stadslanderijen manage their data in [Crop-R](https://www.crop-r.com). Crop-R has an extensive API that gives access to a.o. the locations and dimensions of all plots, the activities performed on each plot, and information about the current and planned crops.
 
-The API lives at [https://www.crop-r.com/api/v1/](https://www.crop-r.com/api/v1). Please note: it is still very much in beta.
+The API lives at [https://www.crop-r.com/api/v1/](https://www.crop-r.com/api/v1/).
+
+Please note: this is an "internal" API optimized for caching and latency.
 
 #### Authentication
 
-You need an auth token to interact wit the API. First, use the FarmHack account to log into Crop-R at https://www.crop-r.com#show_login. Second, locate the Crop-R session cookie through the `Preferences/Settings` of your favourite browser. E.g. in Chrome you can find it under `Settings - Show advanced settings - Content settings - All cookies and site data`. The auth token is stored in the `sessionid` cookie's `content` field. Attach its value to your API call as follows
+You need an auth token to interact wit the API. The token is stored in the Crop-R session cookie. You can retrieve it as follows
+
+- [log into Crop-R](https://www.crop-r.com#show_login) using the Farm Hack guest account. Send a DM to @ndkv or @AnneFarmHack on [Gitter](https://gitter.im/FarmHackNL/farmhack) to get the credentials.
+- locate the Crop-R `sessionid` cookie in your browser. In Chrome you can find it under `Settings - Show advanced settings - Content settings - All cookies and site data`.
+- copy your auth token from the cookie's `content` field.
+
+Authenticate your requests by adding the `sessionid=XXXXX` parameters as follows
 
     https://www.crop-r.com/api/v1?format=json&sessionid=XXXXX
 
-You can now request plots, the performed actions, planned events and others.
+Replace `XXXXX` with the value from your auth token's `content` field. You can now request plots, the performed actions, planned events and others.
 
 #### Retrieve all plots
 
@@ -68,7 +76,7 @@ Response:
     },
     {
       "crop": 177,
-      "id": 165355,
+      "id": 165356,
       "geometry": "POLYGON ((...))"
       ...
     }
@@ -77,15 +85,18 @@ Response:
 
 ```
 
+The crops are stored in the `objects` list. Each plot has an `id`, a `crop` type, a `geometry`, a.o.
+
 Note: the geometry is stored as [Well-Known Text](https://en.wikipedia.org/wiki/Well-known_text).
 
-#### Retrieve a specific crop
+#### Retrieve a crop's name
 
-The crop types are stored in `crop-r_lookup.json`. The `croptype_list` name contains a list of crop definitions as
+The crop names are stored in `crop-r_lookup.json`. The `croptype_list` list holds the definitions as
 
 ```json
 "croptype_list": [
         {
+            "id": 100590,
             "category": 58,
             "seed_unit": "eenheden",
             "edi_code": "2060101",
@@ -93,22 +104,21 @@ The crop types are stored in `crop-r_lookup.json`. The `croptype_list` name cont
             "color": "#8E388E",
             "default_croppurpose": {...},
             "species": [...],
-            "id": 100590,
             "variant": "crop",
             "purposes": [...]
         },
         ...
 ```
 
-The `crop` value from `/cropfield` corresponds to the `id` value in `public_data.js["croptype_list"]`.
+A field's `crop` value from the `api/v1/cropfield` response corresponds to the `id` of a crop from `crop_typelist`. In other words, a field's `crop` value corresponds to `croptype_list[0]["id"]`.
 
-**For example**, to fetch the name of e.g. `crop: 100590` you need to iterate over `croptype_list`, look for `id: 100590` and extract the `name` value. In this case this is `1e jaars plantui`.
+**For example**, to fetch the name of e.g. `crop: 100590` you need to iterate over `croptype_list`, look for `id: 100590` and extract the value of `name`. In the example above this is `1e jaars plantui`.
 
 #### Retrieve the performed activities on a plot
 
-Plot activities such as sowing, spraying, inspecting, etc. are maintained in Crop-R `record`s. Each record contains one or more `activities`.
+Plot activities such as sowing, spraying, inspecting, harvesting, etc. are maintained in `records`. Each record contains one or more `activities`.
 
-Send a `GET` request to `/api/v1/record/` to retrieve all `record`s:
+Send a `GET` request to `/api/v1/record/` to retrieve all `records`:
 
     curl "https://www.crop-r.com/api/v1/record?format=json&sessionid=XXXXX"
 
@@ -129,12 +139,7 @@ Response:
         {
           "theme": 10,
           "type": 1003,
-          "attributes": [
-            {
-              "type": 1001002,
-              "value": 5
-            }
-          ]
+          "items": [...]
         },
         {
           "theme": 11,
@@ -151,20 +156,22 @@ Response:
       "processing_state": "performed",
       ...
     },
-    {
-      ...
-    }
+    {...}
   ]
 }
 ```
 
-A plot's `id` is stored in the `cropfield` name. You can use it to retrieve a specific plot from `/cropfield/` as
+The `objects` list contains the Crop-R records. Each `record` contains one or more `activities`.
 
-    https://www.crop-r.nl/api/v1/cropfield/165355?format=json&sessionid=XXXXX
+You can also request the records of a single field by adding the`cropfield` parameter as follows
 
-#### Retrieve the name of an activity
+    curl "https://www.crop-r.com/api/v1/record?format=json&cropfield=165394"
 
-As you can see in the response above, activities consist of `themes` and `types`. The `theme` depicts the general category (e.g. crop protection) whereas `type` specifies the performed action. Both are stored in `crop-r_lookup.json`.
+#### Retrieve the theme of an activity
+
+As you can see in the response above, activities consist of `themes` and `types`. The `theme` depicts the general category of an activity e.g. crop protection whereas `type` specifies the used method.
+
+The `themes` and `types` definitions are stored in `crop-r_lookup.json`.
 
 `theme` definitions are stored under `default_configuration -> recording -> children -> title` as follows:
 
@@ -179,15 +186,15 @@ As you can see in the response above, activities consist of `themes` and `types`
         "children": [
             {
                 "selected": true,
-                "children": [...],
                 "key": 4,
-                "title": "Grondbewerken"
+                "title": "Grondbewerken",
+                "children": [...]
             },
             {
                 "selected": true,
-                "children": [...],
                 "key": 5,
-                "title": "Bereiden teeltbed"
+                "title": "Bereiden teeltbed",
+                "children": [...]
             },
             ...
         ]
@@ -195,7 +202,7 @@ As you can see in the response above, activities consist of `themes` and `types`
 }
 ```
 
-The value of an activity's `theme` in the `/api/v1/record/` response corresponds to `default_configuration["recording"]["children"][0]["key"]`.
+The value of an activity's `theme` property in the `/api/v1/record/` response corresponds to the `key` of a `recording`'s child. In other words, an activity's `theme` corresponds to `default_configuration["recording"]["children"][0]["key"]`.
 
 #### Retrieve the type of an activity
 
@@ -212,6 +219,8 @@ The `type` of an activity is stored in `crop-r_lookup.json` as well. It lives in
             "children": [
                 {
                     "selected": true,
+                    "key": 4,
+                    "title": "Grondbewerken",
                     "children": [
                         {
                             "key": 1000401,
@@ -232,7 +241,7 @@ The `type` of an activity is stored in `crop-r_lookup.json` as well. It lives in
                                 },
 ```
 
-The value of an activity's `type` property in the `record/` response corresponds to the `key` of a Method's child i.e. `default_configuration["recording"]["children]["children"][2]["children]["key"]`
+The value of an activity's `type` property in the `api/v1/record/` response corresponds to the `key` of a Method's child i.e. it corresponds to `default_configuration["recording"]["children]["children"][2]["children]["key"]`
 
 #### HOWTO: convert Well-Known Text geometries to GeoJSON
 
