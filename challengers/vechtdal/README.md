@@ -4,9 +4,19 @@
 ## Vechtdalproducten
 Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overijssels Vechtdal waarin producenten (boeren), bewerkers (bakkers en slagers) en gebruikers in de horeca (restaurants en hotels) zijn verenigd.
 
-### Data
+### Data: Sik.co API
 
-TODO
+The Vechtdalproducten producers, processors, consumers (e.g. restaurants and hotels) and their products are managed in Google Drive spreadsheets.
+
+- TODO List of Vecthdalproducten members TODO
+
+- [Example product list of beer brewery De Pauw](https://docs.google.com/spreadsheets/d/1JuJoTajCuGH8BcRFhYOrISqommrYVsxVVfX8TT14Pqk/edit#gid=0)
+
+We've linked these sheets to [Silk.co](https://www.silk.co) to enable easy visualisation, analysis and data retrieval, see http://vechtdal.silk.co
+
+Silk.co has a **RESTful API** that gives you access to the data cards. See the docs at https://developer.silk.co for more information.
+
+TODO: add 2-3 example queries.
 
 ## De Zwolse Stadslanderijen
 
