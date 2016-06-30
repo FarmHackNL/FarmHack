@@ -144,4 +144,4 @@ TODO
 
 **HOWTO: convert Well-Known Text geometries to GeoJSON**
 
-See issue #7 for an example Python conversion script.
+See [issue #7](https://github.com/FarmHackNL/FarmHack/issues/7) for an example Python conversion script.
