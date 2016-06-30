@@ -1,10 +1,10 @@
 # Vechtdal - Raalte
-
+De grote vraag voor ‘korte keten’ boeren is hoe zij hun producten van de streek, de stad in kunnen krijgen. De logistiek is snel te duur, en als boer heb je niet 1,2,3 het netwerk en de tijd om zelf te vermarkten. De uitdaging bij deze FarmHack is om langs dit spoor prototypes te ontwikkelen. Ook het realiseren van onderscheidend vermogen is van groot belang voor boeren in korte ketens, een aanvullende vraag is daarom hoe technologie bij kan dragen aan het overbrengen van meer inzicht in de productie van je eten.
 
 ## Vechtdalproducten
 Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overijssels Vechtdal waarin producenten (boeren), bewerkers (bakkers en slagers) en gebruikers in de horeca (restaurants en hotels) zijn verenigd.
 
-### Data: Sik.co API
+### Data: Silk.co API
 
 The Vechtdalproducten producers, processors, consumers (e.g. restaurants and hotels) and their products are managed in Google Drive spreadsheets.
 
