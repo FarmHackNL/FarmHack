@@ -162,6 +162,78 @@ A plot's `id` is stored in the `cropfield` name. You can use it to retrieve a sp
 
     https://www.crop-r.nl/api/v1/cropfield/165355?format=json&sessionid=XXXXX
 
+#### Retrieve the name of an activity
+
+As you can see in the response above, activities consist of `themes` and `types`. The `theme` depicts the general category (e.g. crop protection) whereas `type` specifies the performed action. Both are stored in `crop-r_lookup.json`.
+
+`theme` definitions are stored under `default_configuration -> recording -> children -> title` as follows:
+
+```json
+"default_configuration": {
+    "recording": {
+        "category": "data",
+        "title": "Registratie configuratie",
+        "text": "Stel in welke attributen en methodoen je kan registreren",
+        "open_by_default": true,
+        "type": "recording",
+        "children": [
+            {
+                "selected": true,
+                "children": [...],
+                "key": 4,
+                "title": "Grondbewerken"
+            },
+            {
+                "selected": true,
+                "children": [...],
+                "key": 5,
+                "title": "Bereiden teeltbed"
+            },
+            ...
+        ]
+    }
+}
+```
+
+The value of an activity's `theme` in the `/api/v1/record/` response corresponds to `default_configuration["recording"]["children"][0]["key"]`.
+
+#### Retrieve the type of an activity
+
+The `type` of an activity is stored in `crop-r_lookup.json` as well. It lives in `default_configuration -> recording -> children -> children -> ['title'] = Methods -> children -> title`.
+
+```json
+"default_configuration": {
+        "recording": {
+            "category": "data",
+            "title": "Registratie configuratie",
+            "text": "Stel in welke attributen en methodoen je kan registreren",
+            "open_by_default": true,
+            "type": "recording",
+            "children": [
+                {
+                    "selected": true,
+                    "children": [
+                        {
+                            "key": 1000401,
+                            "title": "Breedte"
+                        },
+                        {
+                            "key": 1000400,
+                            "title": "Diepte"
+                        },
+                        {
+                            "title": "Methodes",
+                            "selected": true,
+                            "children": [
+                                {
+                                    "selected": true,
+                                    "key": 409,
+                                    "title": "Aanaarden"
+                                },
+```
+
+The value of an activity's `type` property in the `record/` response corresponds to the `key` of a Method's child i.e. `default_configuration["recording"]["children]["children"][2]["children]["key"]`
+
 #### HOWTO: convert Well-Known Text geometries to GeoJSON
 
 See [issue #7](https://github.com/FarmHackNL/FarmHack/issues/7) for an example Python conversion script.
