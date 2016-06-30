@@ -140,3 +140,8 @@ A plot's `id` is stored in the `cropfield` name. You can use it to retrieve a sp
 **Retrieve the planned activities on a plot**
 
 TODO
+
+
+**HOWTO: convert Well-Known Text geometries to GeoJSON**
+
+See issue #7 for an example Python conversion script.
