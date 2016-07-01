@@ -28,7 +28,7 @@ De Zwolse Stadslanderijen manage their data in [Crop-R](https://www.crop-r.com).
 
 The API lives at [https://www.crop-r.com/api/v1/](https://www.crop-r.com/api/v1/).
 
-Please note: this is an "internal" API optimized for caching and latency.
+Here be dragons: this is an "internal" API optimized for caching and latency. Crop-R is currently building `v3` which will optimize for developer wellbeing.
 
 #### Authentication
 
