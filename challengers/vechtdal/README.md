@@ -8,7 +8,7 @@ Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overi
 
 The Vechtdalproducten producers, processors, consumers (e.g. restaurants and hotels) and their products are managed in Google Drive spreadsheets.
 
-- TODO List of Vecthdalproducten members TODO
+- [List of Vecthdalproducten members](https://drive.google.com/open?id=1oJGFhMywTM6JKDJ2jOXiie45nCYeYiUNM0A_o46vtt0)
 
 - [Example product list of beer brewery De Pauw](https://docs.google.com/spreadsheets/d/1JuJoTajCuGH8BcRFhYOrISqommrYVsxVVfX8TT14Pqk/edit#gid=0)
 
