@@ -10,6 +10,8 @@ The Vechtdalproducten producers, processors, consumers (e.g. restaurants and hot
 
 - [List of Vecthdalproducten members](https://drive.google.com/open?id=1oJGFhMywTM6JKDJ2jOXiie45nCYeYiUNM0A_o46vtt0)
 
+- [Vechtdalproducten product sheets](https://drive.google.com/folderview?id=0BzyupdeOW2PqZHdlcWdqVENlOG8)
+
 - [Example product list of beer brewery De Pauw](https://docs.google.com/spreadsheets/d/1JuJoTajCuGH8BcRFhYOrISqommrYVsxVVfX8TT14Pqk/edit#gid=0)
 
 We've linked these sheets to [Silk.co](https://www.silk.co) to enable easy visualisation, analysis and data retrieval, see http://vechtdal.silk.co
