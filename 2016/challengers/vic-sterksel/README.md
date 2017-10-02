@@ -10,14 +10,14 @@ Ninke Dirx-Kuijken is innovatiemanager bij [Varkens Innovatie Centrum Sterksel](
 
 The FarmHack IoT infrastructure is supplied and configured by Manfred van der Voort. Manfred is the initiator and CTO of [ICR3ATE | Digital Makers Lab](http://www.icr3ate.nl) in Eindhoven.
 
-Manfred and colleagues will bring and setup(!) a huge number of connectivity, sensing and processing hardware.
+Manfred and colleagues will bring and setup(!) a huge number of connectivity, sensing and processing hardware that you can use during the FarmHack at VIC Sterksel.
 
 
 ### Connectivity
 
 |Device|Owner|Remarks|
 |---|---|---|
-|Waspmote LoRaWAN SMA 4.5 dBi - 868|ICR3ATE|LoRa Node for the EU with Arduino compatibility|
+|[Waspmote LoRaWAN SMA 4.5 dBi - 868](https://www.cooking-hacks.com/waspmote-gateway-sx1272-lora-sma-4-5-dbi-868-mhz)|ICR3ATE|LoRa Node for the EU with Arduino compatibility|
 |Sodaq Autonomo met LoRa Bee & Grove extensies|ICR3ATE|LoRa Node for the EU with Aduino compatibility and Groove ports |
 |Photon & ESP8266  (WiFi connection)|ICR3ATE|3 items|
 |LoRa Gateway|ICR3ATE|Available and tested on TTN|
@@ -26,7 +26,7 @@ Manfred and colleagues will bring and setup(!) a huge number of connectivity, se
 
 ### Sensors
 
-|Device|Owner|Remarks|Documentation|
+|Sensor|Owner|Remarks|Documentation|
 |---|---|---|---|
 |[Waspmote Gases Sensor Board PRO](https://www.cooking-hacks.com/waspmote-gases-sensor-board-pro)|FarmHack|1 board with 2 standard gas sensors|TODO|
 |[Soil humidity](https://www.cooking-hacks.com/808h5v5-humidity-sensor)|ICR3ATE| |TODO|
