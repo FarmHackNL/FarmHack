@@ -4,81 +4,43 @@
 
 _FarmhackNL mobiliseert coders, creatieven en domeinexperts op vraagstukken van de boer._
 
-Tijdens 4 (!) hackathons in juni en juli komen we samen bij de boer(!) om te hacken aan agri data, visualisaties, analyses en apps. Schrijf je snel in op [farmhack.nl](http://www.farmhack.nl)!
+## Mest Hack
 
+*Tijdens de Mest Hack zetten we data en technologie in om mest- en nutriëntenstromen beter in beeld te krijgen. Zo komen we op ideeën om het naleven van het beleid voor boeren en transporteurs eenvoudiger te maken, en met minder administratie. Daarnaast zien we waar handhaving beter kan, om echte ‘cowboys’ aan te pakken. Tenslotte werken we aan hele nieuwe innovatiekansen rond mest.*
 
-# Meedoen
+Locatie: Dairy Campus, Boksumerdyk 11, Leeuwarden
 
-Op [farmhack.nl](http://www.farmhack.nl) kun je je inschrijven voor één van de FarmHacks.
+Meer informatie en inschrijving: [FarmHack.nl](http://www.farmhack.nl/activiteiten/mesthack/).
 
- Via de volgende kanalen kun je meediscussiëren en/of up-to-date blijven.
+### Challenges
 
-- [Blog](http://www.farmhack.nl/category/blog/) - laatste nieuws, interviews en blogs over data en tools.
-- [Twitter](https://twitter.com/farmhacknl) - laatste nieuws, aankondigingen en live verslag van elke FarmHack.
-- [Gitter](https://gitter.im/FarmHackNL/FarmHack) - openbaar chat kanaal.
-- [Issue tracker](https://github.com/FarmHackNL/FarmHack/issues) - vraag/opmerkinge/suggestie voor FarmHack? Laat het ons weten!
+#### Boer
 
-Op https://github.com/FarmHackNL vind je een overzicht van de FarmHack projecten.
+Zijn er kansen voor effectief mestbeleid met de **boer centraal**? 
 
-# Data
+Weet jij wat een boer kan hebben aan Near-infrared Spectroscopy en andere **sensortechnologie**? Kun je de **mineralencyclus** op een boerenbedrijf in **beeld brengen**, en beschikbaar maken op gebiedsniveau? Heb jij ideeën over hoe **akkerbouw en veehouderij** beter kunnen **samenwerken**, bijvoorbeeld door te werken aan de Kringloopwijzer?
 
-- In deze repository vind je (demo) datasets van de FarmHack Challengers, zie de `challengers/<challenger>/data` mapjes.
-- In de FarmHack [Open Data](https://github.com/farmhacknl/open-data) repository verzamelen we (landelijke) **open** agri data die interessant/relevant is voor de FarmHacks.
-- Op [data.farmhack.nl](https://farmhack.data.nl) vind je bulk downloads van (landelijke) open data en de data van de challengers.
+#### Milieu
 
-# Documentatie en tools
+Kunnen we (near real-time) waterkwaliteit- of bodemdata in agrarische vanggebieden gebruiken om de effecten van maatregelen op het milieu te meten?
 
-In de [PDOK/NGR documentatie](http://pdok-ngr.readthedocs.io) vind je handleidingen en tutorials over het gebruik van geodata.
+Ben jij **IoT expert** en zie jij kansen voor mest en milieu-impact **monitoring op bedrijfsniveau**? Of ben je juist actief in een agrarisch collectief en heb je ideeen over **cooperatieve mestverwerking op gebiedsniveau**?
 
-Het gros van de FarmHack  datasets heeft een ruimtelijk component. Gebruik een van onderstaande (web) apps om geodata te visualiseren, analyseren en transformeren naar andere bestandsformats.
+#### Markt
 
-- [CartoDB](https://cartodb.com) - Geodata in de browser
-- [QGIS](http://www.qgis.org/en/site/) - Geodata op de desktop
-- [PostGIS](http://postgis.net) - Geodata plug-in voor PostgresSQL
-- [Turf.js](http://turfjs.org) - Geodata in JavaScript (browser én desktop)
-- [GDAL](http://www.gdal.org) - Geodata in de terminal
+In Nederland is een **overschot aan mest**, dit betekent dat we te maken hebben met een aanbodgedreven markt. We gaan kijken naar de mogelijkheden voor het ontwikkelen van een **digitale marktplaats voor mest**, waar vraag en aanbod bij elkaar komen en keuzemogelijkheden worden geboden voor specifieke distributie- / transportvormen. 
 
-**Vooral QGIS is een must have: hiermee kun je o.a. geodata slicen en naar andere bestandsformats tranformeren bijv. van Shapefile naar GeoJSON.**
+Heb jij een idee voor een mest app die **peer-to-peer informatie uitwisseling** tussen mestproducenten en grondeigenaren faciliteert en akkerbouwers helpt om gericht mest aan te kopen? Ben jij de **blockchain** held die de landbouw helpt aan een gedistribueerd systeem op basis van verifieerbare datastromen?
 
-# Challengers
+#### Handhaving
+n Nederland zijn de NVWA en RVO gezamenlijk verantwoordelijk voor een goede naleving van de wet. Het is belangrijk voor zowel de handhaver, als voor de boeren, intermediairs en vervoerders dat deze **handhaving slim, efficiënt en data-driven is**.
 
-**Jacob van den Borne - Reusel**
+Ben jij data scientist en wil jij de overheid helpen om **slimmer gebruik te maken van beschikbare data** op zoek naar relaties en patronen? Ben jij een notification/alert wizzard? Of een visual genius en weet jij hoe je de 10 gekste mesttransporten van 2016 in kaart kan brengen?
 
-Verslag: [blog](http://www.farmhack.nl/resultaten-farmhack-1-datavisualisatie-pieperboer/) | [video](https://vimeo.com/171559771)
+#### Uitvoerbaarheid
 
-Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/vandenborne/data
+Welke mogelijkheden biedt het **digitaliseren en automatiseren** van de huidige (papieren) administratie voor **snelle en makkelijke verantwoording**? Biedt de **mestketen van de toekomst** de mogelijkheid om **real-time** te zien welke mest waar geladen wordt?
 
-Alle data: https://data.farmhack.nl/challengers/vandenborne/
+### Data
 
-**Nanne Sterenborg - Groningen**
-
-Demodata en documentatie: https://github.com/FarmHackNL/FarmHack/tree/master/challengers/sterenborg/data
-
-Alle data: https://data.farmhack.nl/challengers/sterenborg/
-
-**Ilona Lagas en Jos van Leussen - Zwolle**
-
-Ilona Lagas is de voorzitter van Vechtdalproducten, een coöperatie in het Overijssels Vechtdal waarin producenten (boeren), bewerkers (bakkers en slagers) en gebruikers in de horeca (restaurants en hotels) zijn verenigd.
-
-Jos van Leussen is de initiatiefnemer van ‘De Zwolse Stadslanderijen’, een boerenbeheer maatschappij die zich richt op het beheer en gebruik van een deel van de ‘reservegronden woningbouw’: honderden hectaren grond in en rond de stad die ooit bedoeld waren voor woningbouw.
-
-**Nienke Dirx-Kuijken - Noord-Brabant**
-
-Ninke Dirx-Kuijken is innovatiemanager bij [Varkens Innovatie Centrum Sterksel](http://www.wageningenur.nl/nl/Expertises-Dienstverlening/Onderzoeksinstituten/livestock-research/Innovatiecentra-en-faciliteiten/Varkens-Innovatie-Centrum-Sterksel.htm), een multifunctioneel onderzoekscentrum voor innovatieve en duurzame varkenshouderij.
-
- Al een aantal jaar kijkt zij naar de kansen van digitalisering. Resultaten laten zien dat veel winst te behalen valt met data gedreven management. Vooral als straks de slag gemaakt wordt van meten op groepsniveau naar individueel dierniveau.
-
-# Data donoren
-
-|Donor(en)|Organisatie/Bedrijf|Dataset|Challenger(s)|
-|---|---|---|---|
-|Ton van Gastel|[Eurofins Agro](http://www.blgg.com)|[Bodemscout](http://www.mijnpercelen.nl?returnUrl=%2FKaartbedrijf)| Van den Borne, Sterenborg|
-|[Jan Clement](https://twitter.com/geo_jan), Harry Massop|[Alterra](https://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra.htm)|[Potentiële risicolocaties voor oppervlakkige afspoeling](http://www.wageningenur.nl/nl/Publicatie-details.htm?publicationId=publication-way-343536353534)| Van den Borne, Sterenborg|
-
-# De FarmHack visie
-
-FarmHack is een katalysator voor oplossingen en innovaties in de agrarische en landbouwsector. We mobiliseren coders, creatieven en domeinexperts op vraagstukken van de boer. De ambitie is om uit te groeien tot een permanent vernieuwingskracht binnen de agri- en landbouwsector: een gemeenschap die uitdagingen op een open en transparante manier aanpakt. Het motto hierbij is: make things open: it makes things better.
-
-Om dit te realiseren willen alle analyses, visualisaties, apps, en de bijbehorende ontwikkelproces en data die tijdens de FarmHacks aan bod komen op een open en duurzame manier vastleggen. Het streven: een solide gemeenschappelijke basis realiseren waarop we rendabele apps en oplossingen kunnen bouwen. Een gezamenlijke verkenning van de agri/landbouw _problem space_ stelt ons beter in staat om waarde toevoegende apps en oplossingen te bouwen. Samen kunnen we tijdrovende bottlenecks effectiever wegnemen. Want, wat is waardevoller en fijner: een uur lang obscure data schoonmaken of je toffe app productieklaar en gepolijst maken?
-
-**We richten FarmHack daarom in als een open source project: we ontwikkelen en communiceren in het open.** Maak daarom veelvuldig gebruik van de FarmHack ecosysteem op GitHub.
+AgroDataCube
