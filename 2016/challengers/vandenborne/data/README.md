@@ -4,23 +4,23 @@ De bestanden in deze directory geven een overzicht van de verschillende types da
 
 Onderstaande komt uit Frenk-Jan Barons BSc thesis `Bodemscans en opbrengstmeting in de aardappelteelt op zandgrond: het zoeken naar verbanden`.
 
-##1. Percelen
+## 1. Percelen
 
 Jacobs percelen zijn over een groot gebied verspreid (sommige liggen in Belgie!). Ze komen in alle soorten, maten en vormen voor. Elk perceel heeft een unieke ID nummer, een naam, oppervlakte, gewas, ras, voorgaand gewas en een locatie.
 
-##2. Bodemscan
+## 2. Bodemscan
 
 Een bodemscan meet de elektrische geleidbaarheid en magnetische gevoeligheid van de bodem. Bodemscans geven inzicht in de samenstelling van de bodem en de locaties van droge en natte plekken. Aan de hand hiervan kan de vruchtbaarheid bepaald worden. De bodemscan bestanden hebben één kolom: `EC`. Dit staat voor _electrical conductivity_ en is een maat voor de vruchtbaarheid van het perceel.
 
 Lees meer over de bodemscans op http://www.vandenborneaardappelen.com/nl/361/bodemscannen-bij-van-den-borne-aardappelen
 
-##3. Schaduwkaarten
+## 3. Schaduwkaarten
 
 Van elk perceel worden er schaduwkaarten gemaakt. Deze geven het schaduwverloop van een perceel aan de hand van een aantal categorieen: permanente schaduw, transitieschaduw, etc. Jacob gebruikt deze gegevens om o.a. de gewasdichtheid te bepalen: planten in de schaduw worden verder van elkaar geplant dan planten in de open lucht. 
 
 Lees meer over variabel poten op http://www.vandenborneaardappelen.com/nl/363/variabel-poen-in-schaduwzones
 
-##4. Pootlogs
+## 4. Pootlogs
 
 De zaai- en -pootlogs laten zien hoe machines naar percelen rijden en wat ze daar zaaien. Elk perceel wordt nauwkeurig ingemeten alvorens het gezaaid wordt met een gewas.
 
@@ -40,7 +40,7 @@ Hierna volgt hoeveel granulaat en vloeibare kunstmest ingesteld is en hoeveel da
 
 Lees meer over het variabel poten op http://www.vandenborneaardappelen.com/nl/292/variabel-poten
 
-##6. Gewassensing
+## 6. Gewassensing
 
 De Fritzmeier Isaria sensor meet de reflectie van het licht dat op een plant valt. Hieruit zijn o.a. de hoeveelheid biomassa en stikstof van een plant te bepalen. Elk meting is voorzien van een nauwkeurige GPS coordinaat. De metingen worden gebruikt om taakkaarten te maken voor het variabel toedienen van mest en/of kunstmest. Het gewas krijgt op deze manier precies wat het nodig heeft en wordt verspilling tegengegaan.
 
@@ -58,7 +58,7 @@ Aan de hand van de metingen kan de machine meteen variabel kunstmest strooien. A
 
 Lees meer over gewassensing op http://www.vandenborneaardappelen.com/nl/296/gewassensing
 
-##7. Opbrengstmeting
+## 7. Opbrengstmeting
 
 Beide aardappelrooiers (de Puma 3 en de Puma+) zijn uitgerust met een opbrengstmetingsysteem.
 
@@ -81,7 +81,7 @@ Bodemscout shows a farmer where in his plots are spots where crops (almost) alwa
 
 The dataset has 7 possible values (1-7) and is symbolised like this
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/bodemscan_eurofins_legend.gif)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/vandenborne/data/images/bodemscan_eurofins_legend.gif)
 
 - Value 1 means this rasterpoint has been always much worse then average for the field over 9 past years.
 - Value 7 means this rasterpoint has been always much better then average for the field over 9 past years.
@@ -89,13 +89,13 @@ The dataset has 7 possible values (1-7) and is symbolised like this
 
 All this is based on a called WDVI (Weighted Difference Vegetation Index) per year over the last 9 years. WDVI represents how well a crop is growing.
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/bodemscna_eurofins_example.gif)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/vandenborne/data/images/bodemscna_eurofins_example.gif)
 
 The Bodemscout data is donated by @TonvanGastel ([eurofins agro](http://blgg.agroxpertus.nl)).
 
 ## Puddles by Alterra
  `risicolocaties_oppervlakkige_afspoeling.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
 
- ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/watershed.png)
+ ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/vandenborne/data/images/watershed.png)
 
  This dataset is contributed by [Jan Clement](https://twitter.com/geo_jan) and Harry Massop of [Alterra](https://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra.htm). See the dataset's [documentation](http://www.wageningenur.nl/nl/Publicatie-details.htm?publicationId=publication-way-343536353534) (Dutch) for more information.
