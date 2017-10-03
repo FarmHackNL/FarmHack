@@ -32,16 +32,16 @@ In `percelen.geojson` vind je alle percelen Nanne en Gert. Elk perceel heeft een
 
 In `sentinel2-ndvi_demo.tif` vind je een NDVI kaart op basis van Sentinel-2 data.
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ndvi.png)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/sterenborg/data/images/ndvi.png)
 
 `ebee-ndvi_demo.geojson` is een NDVI vector kaart (punten) op basis van de dronebeelden.
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/ebee-ndvi.png)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/sterenborg/data/images/ebee-ndvi.png)
 
 ## Puddles by Alterra
  `risicolocaties_oppervlakkige_afspoeling.geojson` shows where puddles are likely to form on Jacob's plots. It is derived from a watershed analysis based on the Dutch height map and information about the soil. The white lines/areas in the image below indicate larger quantities of water (i.e. streams and puddles).
 
- ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/vandenborne/data/images/watershed.png)
+ ![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/vandenborne/data/images/watershed.png)
 
  This dataset is contributed by [Jan Clement](https://twitter.com/geo_jan) and Harry Massop of [Alterra](https://www.wageningenur.nl/en/Expertise-Services/Research-Institutes/alterra.htm). See the dataset's [documentation](http://www.wageningenur.nl/nl/Publicatie-details.htm?publicationId=publication-way-343536353534) (Dutch) for more information.
 
@@ -73,7 +73,7 @@ Bodemscout shows a farmer where in his plots are spots where crops (almost) alwa
 
 The dataset has 7 possible values (1-7) and is symbolised like this
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/bodemscan_eurofins_legend.gif)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/sterenborg/data/images/bodemscan_eurofins_legend.gif)
 
 - Value 1 means this rasterpoint has been always much worse then average for the field over 9 past years.
 - Value 7 means this rasterpoint has been always much better then average for the field over 9 past years.
@@ -81,6 +81,6 @@ The dataset has 7 possible values (1-7) and is symbolised like this
 
 All this is based on a called WDVI (Weighted Difference Vegetation Index) per year over the last 9 years. WDVI represents how well a crop is growing.
 
-![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/challengers/sterenborg/data/images/bodemscan_eurofins_example.gif)
+![](https://raw.githubusercontent.com/FarmHackNL/FarmHack/master/2016/challengers/sterenborg/data/images/bodemscan_eurofins_example.gif)
 
 The Bodemscout data is donated by @TonvanGastel ([eurofins agro](http://blgg.agroxpertus.nl)).
