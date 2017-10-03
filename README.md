@@ -1,7 +1,5 @@
 # FarmHack
 
-[![Join the chat at https://gitter.im/FarmHackNL/FarmHack](https://badges.gitter.im/FarmHackNL/FarmHack.svg)](https://gitter.im/FarmHackNL/FarmHack?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 _FarmhackNL mobiliseert coders, creatieven en domeinexperts op vraagstukken van de boer._
 
 ## Mest Hack
@@ -9,6 +7,8 @@ _FarmhackNL mobiliseert coders, creatieven en domeinexperts op vraagstukken van 
 *Tijdens de Mest Hack zetten we data en technologie in om mest- en nutriëntenstromen beter in beeld te krijgen. Zo komen we op ideeën om het naleven van het beleid voor boeren en transporteurs eenvoudiger te maken, en met minder administratie. Daarnaast zien we waar handhaving beter kan, om echte ‘cowboys’ aan te pakken. Tenslotte werken we aan hele nieuwe innovatiekansen rond mest.*
 
 Locatie: Dairy Campus, Boksumerdyk 11, Leeuwarden
+
+Gitter chatkanaal: https://gitter.im/FarmHackNL/mesthack
 
 Meer informatie en inschrijving: [FarmHack.nl](http://www.farmhack.nl/activiteiten/mesthack/).
 
@@ -71,6 +71,8 @@ Een groot aantal van deze datasets zijn met elkaar gecombineerd bijv. de AHN is 
 **Documentatie**
 
 Zie de [AgroDataCube](https://docs.google.com/document/d/1j0-GYmtpi-l-wJ7tjPTnpDA2f8HSBQNf3EgCApivirM/edit#heading=h.egqqt8k8jc2w) voor de volledige lijst van datasets en combinaties.
+
+Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen 
 
 **Gebruik**
 
