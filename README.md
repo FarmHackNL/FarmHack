@@ -43,4 +43,37 @@ Welke mogelijkheden biedt het **digitaliseren en automatiseren** van de huidige 
 
 ### Data
 
-AgroDataCube
+#### AgroDataCube
+
+**Beschrijving**
+
+AgroDataCube is een datawarehouse met Open Data gegevens relevant voor agro-productie met de Nederlandse gewaspercelen, van 2012 t/m 2016. Voor deze eerste versie is het data warehouse opgeslagen in het PostGIS RDBMS.
+
+In de AgroDataCube zijn op dit moment de volgende  open en bewerkte gegevens opgenomen 
+
+1. Perceelsgegevens: [Agrarisch Areaal Nederland](https://data.overheid.nl/data/dataset/agrarisch-areaal-nederland-aan) en [Basisregistratie Gewaspercelen](https://data.overheid.nl/data/dataset/basisregistratie-gewaspercelen-brp) (2012-2016)
+2. Administratieve regio's
+    1. 6-Positie postcodegebieden 2016
+    2. Gemeenten 2015
+    3. Provincies
+3. Hoogtegegevens: Actueel Hoogtebestand Nederland 
+4. Bodemgegevens: Bodemkaart 1:250.000 en 1:50.000 waaruit afgeleid: 
+    1. grondsoorten
+    2. pH
+    3. organische stof
+    4. C/N ratio
+5. Weergegevens: locatie van KNMI meetstations en observatiedata (2012-2016)
+6. GroenMonitor-gegevens: NDVI data (2013-2016) waaruit afgeleid: 
+    1. gewasgroei-variabelen voor suikerbietpercelen
+
+Een groot aantal van deze datasets zijn met elkaar gecombineerd bijv. de AHN is gecombineerd met het BRP zodat het mogelijk is om de hoogteprofiel van een perceel op te vragen. 
+
+**Documentatie**
+
+Zie de [AgroDataCube](https://docs.google.com/document/d/1j0-GYmtpi-l-wJ7tjPTnpDA2f8HSBQNf3EgCApivirM/edit#heading=h.egqqt8k8jc2w) voor de volledige lijst van datasets en combinaties.
+
+**Gebruik**
+
+De AgroDataCube kan direct met SQL of via je favourite programmeertaal benaderd worden. Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
+
+Tijdens de hackathon wordt toegang tot de database verleend.
