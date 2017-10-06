@@ -10,7 +10,7 @@ Locatie: Dairy Campus, Boksumerdyk 11, Leeuwarden
 
 Gitter chatkanaal: https://gitter.im/FarmHackNL/mesthack
 
-Meer informatie en inschrijving: [FarmHack.nl](http://www.farmhack.nl/activiteiten/mesthack/).
+Meer informatie en inschrijving: [FarmHack.nl](http://www.farmhack.nl/activiteiten/mesthack/)
 
 ### Challenges
 
@@ -79,3 +79,23 @@ Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen
 De AgroDataCube kan direct met SQL of via je favourite programmeertaal benaderd worden. Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
 
 Tijdens de hackathon wordt toegang tot de database verleend.
+
+#### KringloopWijzer
+
+**Beschrijving**
+
+*De KringloopWijzer is een managementinstrument dat de mineralenefficiëntie op melkveebedrijven in beeld brengt.*
+
+ Door meer inzicht te krijgen in de mineralenkringloop van dier, voer, bodem en mest kunt melkveehouders beter sturen op de benutting van mineralen. Dit kan bijvoorbeeld leiden tot een hogere grasopbrengst, minder mestafvoer en besparingen op ruwvoeraankoop of kunstmestaankoop.
+
+**Documentatie**
+
+Een KrinloopWijzer dataset beschrijft 300+ kenmerken van een melkveebedrijf. Deze worden gebruikt om de verschillende kringlopen op het bedrijf in [beeld te brengen](http://www.verantwoordeveehouderij.nl/upload_mm/1/f/d/c091e5d4-b99b-4ded-8899-a3852682b6eb_De%20Marke%20KLW%202013.pdf) [PDF]. 
+
+De [Toelichting kengetallen in KringloopWijzer](http://www.verantwoordeveehouderij.nl/upload_mm/4/d/1/c3fd7d0a-bacf-4be7-9e3e-4d237d2ba920_Copy%20of%20omschrijving%20kengetallen%20KLW201609.xlsx) [XLS] document geeft een beknopte beschrijfivng van de KLW kenmerken.
+
+De [KringloopWijzer Handleiding](http://www.verantwoordeveehouderij.nl/upload_mm/7/8/8/8675b6f8-adc6-428f-afcc-37530613d2ea_handleiding%20KringloopWijzer%20januari%202014.pdf) [PDF] beschrijft de invoer, thema's (graasdieren, voorraad, organische en kunstmest, etc.), uitvoer en analyse. 
+
+**Gebruik**
+
+Tijdens de hackathon worden de KLWs van een aantal boerderijen voor de jaren 2012 - 2016 beschikbaar gesteld.
