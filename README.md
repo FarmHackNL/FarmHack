@@ -90,7 +90,7 @@ Tijdens de hackathon wordt toegang tot de database verleend.
 
 **Documentatie**
 
-Een KrinloopWijzer dataset beschrijft 300+ kenmerken van een melkveebedrijf. Deze worden gebruikt om de verschillende kringlopen op het bedrijf in [beeld te brengen](http://www.verantwoordeveehouderij.nl/upload_mm/1/f/d/c091e5d4-b99b-4ded-8899-a3852682b6eb_De%20Marke%20KLW%202013.pdf) [PDF]. 
+Een KrinloopWijzer dataset beschrijft [300+ kenmerken](https://github.com/FarmHackNL/FarmHack#kringloopwijzer) [XLS] van een melkveebedrijf. Deze worden gebruikt om de verschillende kringlopen op het bedrijf in [beeld te brengen](http://www.verantwoordeveehouderij.nl/upload_mm/1/f/d/c091e5d4-b99b-4ded-8899-a3852682b6eb_De%20Marke%20KLW%202013.pdf) [PDF]. 
 
 De [Toelichting kengetallen in KringloopWijzer](http://www.verantwoordeveehouderij.nl/upload_mm/4/d/1/c3fd7d0a-bacf-4be7-9e3e-4d237d2ba920_Copy%20of%20omschrijving%20kengetallen%20KLW201609.xlsx) [XLS] document geeft een beknopte beschrijfivng van de KLW kenmerken.
 
@@ -99,3 +99,18 @@ De [KringloopWijzer Handleiding](http://www.verantwoordeveehouderij.nl/upload_mm
 **Gebruik**
 
 Tijdens de hackathon worden de KLWs van een aantal boerderijen voor de jaren 2012 - 2016 beschikbaar gesteld.
+
+### Mesttransporten -en overschotten
+
+**Beschrijving**
+
+De Rijksdienst voor Ondernemend Nederland stelt twee datasets ter beschikking, te weten
+
+- mestoverschot op bedrijfsniveau
+- transporten van en naar bedrijven
+
+**Gebruik**
+
+De geagregeerde data wordt tijdens de hackathon na ondertekening van een non-disclosure agreement en na toetsing op niet-herleidbaarheid voor de duur van de hackathon beschikbaar gesteld.
+
+Indien aggregeren/anonimiseren onmogelijk blijkt kunnen bewerkingen en analyses op de lokale IT-infrastructuur worden gedaan m.a.w. de laptop van RVO-medewerker.
