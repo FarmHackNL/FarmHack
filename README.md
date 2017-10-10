@@ -114,3 +114,19 @@ De Rijksdienst voor Ondernemend Nederland stelt twee datasets ter beschikking, t
 De geagregeerde data wordt tijdens de hackathon na ondertekening van een non-disclosure agreement en na toetsing op niet-herleidbaarheid voor de duur van de hackathon beschikbaar gesteld.
 
 Indien aggregeren/anonimiseren onmogelijk blijkt kunnen bewerkingen en analyses op de lokale IT-infrastructuur worden gedaan m.a.w. de laptop van RVO-medewerker.
+
+### Waterkwaliteit in Flevoland
+
+**Beschrijving**
+
+Het waterschap Zuiderzeeland meet een groot aantal fysisch-chemische eigenschappen van het oppervlaktewater in Flevoland. Wekelijks worden de waarden van o.a. fosfor, stikstof en ammonium gemeten. 
+
+**Documentatie**
+
+Op [de data portal van Zuiderzeeland](http://zzl.maps.arcgis.com/apps/MapSeries/index.html?appid=7e598d58e26542d38bb57de7fb0893b8) -> `Waterkwaliteit - toestand` vind je achtergrondinformatie over elk gemeten stof en visualisaties van de metingen.
+
+**Gebruik**
+
+Een voorbeeld van de eerste 200 rijen vind je in `data/waterkwaliteit-flevoland-sample.tsv`.
+ 
+Op de data portal vind je [alle metingen die tussen 2011 en 2016](http://www2.zuiderzeeland.nl/data/gmaps/waterkwaliteit/chemie2004-2016zzl.zip) [ZIP] zijn genomen.
