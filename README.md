@@ -47,7 +47,7 @@ Welke mogelijkheden biedt het **digitaliseren en automatiseren** van de huidige 
 
 **Beschrijving**
 
-AgroDataCube is een datawarehouse met Open Data gegevens relevant voor agro-productie met de Nederlandse gewaspercelen, van 2012 t/m 2016. Voor deze eerste versie is het data warehouse opgeslagen in het PostGIS RDBMS.
+AgroDataCube is een datawarehouse met Open Data gegevens relevant voor agro-productie met de Nederlandse gewaspercelen, van 2012 t/m 2016. Voor deze eerste versie is het data warehouse opgeslagen in het PostgreSQL/PostGIS relationele database.
 
 In de AgroDataCube zijn op dit moment de volgende  open en bewerkte gegevens opgenomen 
 
@@ -76,9 +76,11 @@ Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen
 
 **Gebruik**
 
-De AgroDataCube kan direct met SQL of via je favourite programmeertaal benaderd worden. Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
+Gebruik pgAdmin of je favoriete programmeertaal om de AgroDataCube PostgreSQL/PostGIS database te bevragen. 
 
-Tijdens de hackathon wordt toegang tot de database verleend.
+Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
+
+Toegang tot de database wordt tijdens de hackathon verleend.
 
 ### KringloopWijzer
 
