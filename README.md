@@ -16,7 +16,7 @@ Korte beschrijving van de challenges: [onder aan deze pagina](https://github.com
 
 ## Data
 
-### AgroDataCube
+### AgroDataCube (WUR)
 
 **Beschrijving**
 
@@ -55,7 +55,7 @@ Zie de [AgroDataCube](https://docs.google.com/document/d/1j0-GYmtpi-l-wJ7tjPTnpD
 
 Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen 
 
-### KringloopWijzer
+### KringloopWijzer (WUR)
 
 **Beschrijving**
 
@@ -90,7 +90,7 @@ De geagregeerde data wordt tijdens de hackathon na ondertekening van een non-dis
 
 Indien aggregeren/anonimiseren onmogelijk blijkt kunnen bewerkingen en analyses op de lokale IT-infrastructuur worden gedaan m.a.w. de laptop van RVO-medewerker.
 
-### Waterkwaliteit in Flevoland
+### Waterkwaliteit in Flevoland (Waterschap Zuiderzeeland)
 
 **Beschrijving**
 
@@ -106,7 +106,25 @@ _Download_: [alle metingen in periode 2011 - 2016](http://www2.zuiderzeeland.nl/
 
 Op [de data portal van Zuiderzeeland](http://zzl.maps.arcgis.com/apps/MapSeries/index.html?appid=7e598d58e26542d38bb57de7fb0893b8) -> `Waterkwaliteit - toestand` vind je achtergrondinformatie over elk gemeten stof en visualisaties van de metingen.
 
+### Bodem, mest en waterkwaliteitsinformatie (NMI)
 
+Het [Nutriënten Management Instituut](https://www.nmi-agro.nl) stelt een grote hoeveelheid data over bodem, mest en waterkwaliteitsinformatie over de belangrijkste nutrienten op agrarische bedrijven.
+
+**Gebruik** 
+
+Tijdens de hackathon wordt toegang tot de datasets verleend. 
+
+**Documentatie**
+
+Elk dataset is voorzien van uitgebreide beschrijving en documentatie.
+
+### Samenstelling van mest (Komeco)
+
+Komeco stelt een dataset beschikbaar met informatie over de samenstelling van mesttransporten: hoeveelheid droog stof, stikstof, fosfaat en kalium.
+
+**Gebruik**
+
+Tijdens de hackathon wordt toegang tot de datasets verleend.
 
 ## Challenges
 
