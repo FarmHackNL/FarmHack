@@ -18,8 +18,6 @@ Korte beschrijving van de challenges: [onder aan deze pagina](https://github.com
 
 ### AgroDataCube (WUR)
 
-**Beschrijving**
-
 AgroDataCube is een datawarehouse met Open Data gegevens relevant voor agro-productie met de Nederlandse gewaspercelen, van 2012 t/m 2016. Voor deze eerste versie is het data warehouse opgeslagen in het PostgreSQL/PostGIS relationele database.
 
 In de AgroDataCube zijn op dit moment de volgende  open en bewerkte gegevens opgenomen 
@@ -57,8 +55,6 @@ Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen
 
 ### KringloopWijzer (WUR)
 
-**Beschrijving**
-
 *De KringloopWijzer is een managementinstrument dat de mineralenefficiëntie op melkveebedrijven in beeld brengt.*
 
  Door meer inzicht te krijgen in de mineralenkringloop van dier, voer, bodem en mest kunt melkveehouders beter sturen op de benutting van mineralen. Dit kan bijvoorbeeld leiden tot een hogere grasopbrengst, minder mestafvoer en besparingen op ruwvoeraankoop of kunstmestaankoop.
@@ -77,8 +73,6 @@ De [KringloopWijzer Handleiding](http://www.verantwoordeveehouderij.nl/upload_mm
 
 ### Mesttransporten -en overschotten
 
-**Beschrijving**
-
 De Rijksdienst voor Ondernemend Nederland stelt twee datasets ter beschikking, te weten
 
 - mestoverschot op bedrijfsniveau
@@ -91,8 +85,6 @@ De geagregeerde data wordt tijdens de hackathon na ondertekening van een non-dis
 Indien aggregeren/anonimiseren onmogelijk blijkt kunnen bewerkingen en analyses op de lokale IT-infrastructuur worden gedaan m.a.w. de laptop van RVO-medewerker.
 
 ### Waterkwaliteit in Flevoland (Waterschap Zuiderzeeland)
-
-**Beschrijving**
 
 Het waterschap Zuiderzeeland meet een groot aantal fysisch-chemische eigenschappen van het oppervlaktewater in Flevoland. Wekelijks worden de waarden van o.a. fosfor, stikstof en ammonium gemeten. 
 
@@ -125,6 +117,18 @@ Komeco stelt een dataset beschikbaar met informatie over de samenstelling van me
 **Gebruik**
 
 Tijdens de hackathon wordt toegang tot de datasets verleend.
+
+### Precisiebemesting en NIR metingen (Praktijk Centrum voor Precisielandbouw)
+
+Het PCvPL stelt een aantal datasets m.b.t. precisiebemesting en NIR metingen uit het [Plattelandsontwikkelingsprogramma POP3 Brabant 2014-2020](Plattelandsontwikkelingsprogramma POP3 Brabant 2014-2020) beschikbaar.
+
+**Gebruik**
+
+Tijdens de hackathon wordt toegang tot de datasets verleend.
+
+### GPS track van Roelema bemester (DynaLynx)
+
+[GreenDuo-Roelema-bemester.csv](https://github.com/FarmHackNL/FarmHack/blob/master/data/GreenDuo-Roelema-bemester.csv) toont een bemestingsronde van de Roelema bemester. Het bestand bevat informatie over de GPS positie van de bemester en de water- en mestflow. Zie de eerste 200 rijen in het [voorbeeld bestand](https://github.com/FarmHackNL/FarmHack/blob/master/data/GreenDuo-Roelema-bemester_sample.tsv) voor een indruk.
 
 ## Challenges
 
