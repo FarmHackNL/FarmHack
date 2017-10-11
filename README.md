@@ -41,19 +41,19 @@ In de AgroDataCube zijn op dit moment de volgende  open en bewerkte gegevens opg
 
 Een groot aantal van deze datasets zijn met elkaar gecombineerd bijv. de AHN is gecombineerd met het BRP zodat het mogelijk is om de hoogteprofiel van een perceel op te vragen. 
 
+**Gebruik**
+
+Toegang tot de PostgreSQL/PostGIS database wordt tijdens de hackathon verleend.
+
+Gebruik pgAdmin of je favoriete programmeertaal om de AgroDataCube database te bevragen. 
+
+Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
+
 **Documentatie**
 
 Zie de [AgroDataCube](https://docs.google.com/document/d/1j0-GYmtpi-l-wJ7tjPTnpDA2f8HSBQNf3EgCApivirM/edit#heading=h.egqqt8k8jc2w) voor de volledige lijst van datasets en combinaties.
 
 Contactpersonen: Rob Knapen (@robknapen op Gitter) en IJke van Randen 
-
-**Gebruik**
-
-Gebruik pgAdmin of je favoriete programmeertaal om de AgroDataCube PostgreSQL/PostGIS database te bevragen. 
-
-Gebruik QGIS om de data op een kaart te tonen: kies `Layer` -> `Add layer` -> `Add PostGIS Layers...` om de database verbinding te configureren.  
-
-Toegang tot de database wordt tijdens de hackathon verleend.
 
 ### KringloopWijzer
 
@@ -63,6 +63,10 @@ Toegang tot de database wordt tijdens de hackathon verleend.
 
  Door meer inzicht te krijgen in de mineralenkringloop van dier, voer, bodem en mest kunt melkveehouders beter sturen op de benutting van mineralen. Dit kan bijvoorbeeld leiden tot een hogere grasopbrengst, minder mestafvoer en besparingen op ruwvoeraankoop of kunstmestaankoop.
 
+**Gebruik**
+
+Tijdens de hackathon worden de KLWs van een aantal boerderijen voor de jaren 2012 - 2016 beschikbaar gesteld.
+
 **Documentatie**
 
 Een KrinloopWijzer dataset beschrijft [300+ kenmerken](https://github.com/FarmHackNL/FarmHack#kringloopwijzer) [XLS] van een melkveebedrijf. Deze worden gebruikt om de verschillende kringlopen op het bedrijf in [beeld te brengen](http://www.verantwoordeveehouderij.nl/upload_mm/1/f/d/c091e5d4-b99b-4ded-8899-a3852682b6eb_De%20Marke%20KLW%202013.pdf) [PDF]. 
@@ -70,10 +74,6 @@ Een KrinloopWijzer dataset beschrijft [300+ kenmerken](https://github.com/FarmHa
 De [Toelichting kengetallen in KringloopWijzer](http://www.verantwoordeveehouderij.nl/upload_mm/4/d/1/c3fd7d0a-bacf-4be7-9e3e-4d237d2ba920_Copy%20of%20omschrijving%20kengetallen%20KLW201609.xlsx) [XLS] document geeft een beknopte beschrijfivng van de KLW kenmerken.
 
 De [KringloopWijzer Handleiding](http://www.verantwoordeveehouderij.nl/upload_mm/7/8/8/8675b6f8-adc6-428f-afcc-37530613d2ea_handleiding%20KringloopWijzer%20januari%202014.pdf) [PDF] beschrijft de invoer, thema's (graasdieren, voorraad, organische en kunstmest, etc.), uitvoer en analyse. 
-
-**Gebruik**
-
-Tijdens de hackathon worden de KLWs van een aantal boerderijen voor de jaren 2012 - 2016 beschikbaar gesteld.
 
 ### Mesttransporten -en overschotten
 
@@ -96,15 +96,17 @@ Indien aggregeren/anonimiseren onmogelijk blijkt kunnen bewerkingen en analyses 
 
 Het waterschap Zuiderzeeland meet een groot aantal fysisch-chemische eigenschappen van het oppervlaktewater in Flevoland. Wekelijks worden de waarden van o.a. fosfor, stikstof en ammonium gemeten. 
 
+**Gebruik**
+
+Een _voorbeeld_ van de eerste 200 rijen vind je in [waterkwaliteit-flevoland-sample.tsv](https://github.com/FarmHackNL/FarmHack/blob/master/data/flevoland-waterkwaliteit-sample.tsv).
+ 
+_Download_: [alle metingen in periode 2011 - 2016](http://www2.zuiderzeeland.nl/data/gmaps/waterkwaliteit/chemie2004-2016zzl.zip) [ZIP]. 
+
 **Documentatie**
 
 Op [de data portal van Zuiderzeeland](http://zzl.maps.arcgis.com/apps/MapSeries/index.html?appid=7e598d58e26542d38bb57de7fb0893b8) -> `Waterkwaliteit - toestand` vind je achtergrondinformatie over elk gemeten stof en visualisaties van de metingen.
 
-**Gebruik**
 
-Een voorbeeld van de eerste 200 rijen vind je in `data/waterkwaliteit-flevoland-sample.tsv`.
- 
-Op de data portal vind je [alle metingen die tussen 2011 en 2016](http://www2.zuiderzeeland.nl/data/gmaps/waterkwaliteit/chemie2004-2016zzl.zip) [ZIP] zijn genomen.
 
 ## Challenges
 
