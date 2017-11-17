@@ -6,11 +6,11 @@ We mobilize coders, developers, creatives and domain experts to tackle challenge
 
 We organize hackathons, knowledge exchange events, bootcamps and help startups turn ideas into minimum viable products. 
 
-Our motto is “make things open, it makes things better”.  
+Our motto is “make things open, it makes things better”. 
+
+We strive to organise open, inclusive and collaborative events. The [FarmHack Organization](https://github.com/FarmHackNL) harbours open data, prototypes and concepts used/crafted during/after our events. Gitter is our public square: [join us for a chat](https://gitter.im/FarmHackNL/FarmHack)!
 
 ## Hackathons
-
-We strive to organise open, inclusive and collaborative hackathons. 
 
 - Smart Dairy Farming Hackthon [[announcement](http://www.farmhack.nl/activiteiten/smart-dairy-farming-hackathon/)] - a hackathon at the Smart Dairy Farming premises aimed at test driving their newly built infrastructure which gives farmers full control of their data. 
 - MestHack 2017 [[report](http://www.farmhack.nl/resultaten-mesthack/) | [repository ](https://github.com/FarmHackNL/MestHack-2017)] - a hackathon about better management, oversight and distribution manure. 
