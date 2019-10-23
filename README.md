@@ -8,7 +8,7 @@ We organize hackathons, knowledge exchange events, bootcamps and help startups t
 
 Our motto is “make things open, it makes things better”. 
 
-We strive to organise open, inclusive and collaborative events. The [FarmHack Organization](https://github.com/FarmHackNL) harbours open data, prototypes and concepts used/crafted during/after our events. Gitter is our public square: [join us for a chat](https://gitter.im/FarmHackNL/FarmHack)!
+We strive to organise open, inclusive and collaborative events. The [FarmHack Organization](https://github.com/FarmHackNL) harbours open data, prototypes and concepts used/crafted during/after our events. The FarmHack Forum is our public square: [join us for a chat](https://forum.farmhack.nl)!
 
 ## Hackathons
 
